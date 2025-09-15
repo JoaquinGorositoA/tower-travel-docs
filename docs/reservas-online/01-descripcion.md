@@ -1,5 +1,6 @@
 ---
 title: Descripción
+slug: /reservas-online/01-descripcion
 ---
 
 # Reservas Online – Creación de una Reserva
