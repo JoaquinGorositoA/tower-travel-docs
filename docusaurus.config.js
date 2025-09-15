@@ -2,12 +2,17 @@
 // @ts-check
 
 const config = {
-  title: 'Tower Travel',   // 👈 cambia "My Site" por tu título
+  title: 'Tower Travel',   // cambia "My Site" por tu título
   tagline: '',                // podés dejarlo vacío o poner un subtítulo
   favicon: 'img/logo.svg', // poné el logo de tu empresa
 
-  url: 'http://localhost:3000', // tu dominio (luego lo cambiamos cuando publiques)
-  baseUrl: '/',
+  url: 'https://joaquingorositoa.github.io', 
+  baseUrl: '/tower-travel-docs/',
+  organizationName: 'JoaquinGorositoA',
+  projectName: 'tower-travel-docs',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
 
   i18n: {
     defaultLocale: 'es',
