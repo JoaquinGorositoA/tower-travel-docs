@@ -1,10 +1,8 @@
 ---
 title: Filtros
+slug: /reservas-online/filtros
 ---
 
-# Reservas Online – Creación de una Reserva
-
-### Filtros
 En el lateral izquierdo, el vendedor visualizará las siguientes opciones de filtros:
 
 - **Buscar**: el vendedor podrá hacer una búsqueda por nombre de hotel.  

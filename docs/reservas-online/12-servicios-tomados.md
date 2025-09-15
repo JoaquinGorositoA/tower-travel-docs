@@ -1,10 +1,8 @@
 ---
 title: Servicios Tomados
+slug: /reservas-online/servicios-tomados
 ---
 
-# Reservas Online – Creación de una Reserva
-
-### Servicios Tomados
 El vendedor podrá hacer clic en el icono para visualizar y asegurar de que la compra ha sido guardada.
 
 Se mostrarán los datos del servicio.

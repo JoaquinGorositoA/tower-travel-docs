@@ -1,10 +1,8 @@
 ---
-title: Ir a carrito
+title: Ir a Carrito
+slug: /reservas-online/ir-a-carrito
 ---
 
-# Reservas Online – Creación de una Reserva
-
-### Ir a carrito
 El vendedor podrá hacer clic en el botón **Ir a carrito**.
 
 ![Ir a carrito](/img/reservas-online/ir-a-carrito.png)

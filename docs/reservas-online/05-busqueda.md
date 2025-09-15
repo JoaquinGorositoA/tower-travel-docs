@@ -1,12 +1,10 @@
 ---
-title: Búsqueda
+title: Busqueda
+slug: /reservas-online/busqueda
 ---
-
-# Reservas Online – Creación de una Reserva
 
 ![Búsqueda](/img/reservas-online/busqueda.png)
 
-### Búsqueda
 El vendedor podrá hacer una búsqueda completando todos o algunos de los campos requeridos en esta pantalla:
 
 - **Destino**  

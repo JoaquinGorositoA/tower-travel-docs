@@ -1,10 +1,7 @@
 ---
 title: Agregar Servicio
+slug: /reservas-online/agregar-servicio
 ---
-
-# Reservas Online – Creación de una Reserva
-
-### Agregar Servicio
 
 El vendedor tendrá dos opciones para agregar tantos servicios como desee:
 

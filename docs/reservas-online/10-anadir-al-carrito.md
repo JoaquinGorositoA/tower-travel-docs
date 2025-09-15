@@ -1,10 +1,8 @@
 ---
-title: Añadir al carrito
+title: Añadir al Carrito
+slug: /reservas-online/anadir-al-carrito
 ---
 
-# Reservas Online – Creación de una Reserva
-
-### Añadir al carrito
 A continuación el vendedor podrá seleccionar la habitación que desea comprar y presionar el botón **Añadir al carrito**.
 
 El sistema mostrará un mensaje indicando que el **Producto se agregó al carrito con éxito**.
