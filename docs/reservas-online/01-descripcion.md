@@ -11,5 +11,5 @@ Cada vendedor contará con un rol definido, el cual determinará sus permisos y 
 ### Acceder al módulo de Reservas Online
 El vendedor debe iniciar sesión en el sistema donde podrá crear una Reserva y luego hacer clic en **Reservas Online**.
 
-<!-- ![Acceso login](/img/reservas/login.png)  
-![Acceso módulo](/img/reservas/acceso-modulo.png) -->
+![Acceso login](/img/reservas-online/login.png)  
+![Acceso módulo](/img/reservas-online/modulos.png)
