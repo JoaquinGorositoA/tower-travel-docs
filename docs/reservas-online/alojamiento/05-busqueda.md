@@ -1,6 +1,6 @@
 ---
 title: Busqueda
-slug: /reservas-online/busqueda
+
 ---
 
 ![Búsqueda](/img/reservas-online/busqueda.png)
