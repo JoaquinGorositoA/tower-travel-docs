@@ -1,6 +1,6 @@
 ---
 title: Solapa Alojamiento
-slug: /reservas-online/solapa-alojamiento
+
 ---
 
 En esta solapa puede buscarse los hoteles a dar de alta en la reserva.
