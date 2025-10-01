@@ -2,6 +2,10 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
+    // =========================
+    // Módulo: Reservas Online
+    // =========================
+    "intro",
     {
       type: "category",
       label: "Reservas Online",
@@ -45,8 +49,6 @@ const sidebars = {
           ],
         },
 
-        // Asistencias
-        // Eventuales
         // Traslados
         {
           type: "category",
@@ -72,6 +74,8 @@ const sidebars = {
             "reservas-online/excursiones/anadir-al-carrito",
           ],
         },
+
+        // Asistencias
         {
           type: "category",
           label: "Asistencias",
@@ -84,6 +88,7 @@ const sidebars = {
           ],
         },
 
+        // Eventuales
         {
           type: "category",
           label: "Eventuales",
@@ -102,9 +107,13 @@ const sidebars = {
             "reservas-online/eventuales/campos-liquidacion",
           ],
         },
+
+        // Mis Reservas
         {
           type: "category",
           label: "Mis Reservas",
+          collapsible: true,
+          collapsed: true,
           items: [
             "reservas-online/mis-reservas/busqueda",
             "reservas-online/mis-reservas/busqueda-detalle",
@@ -128,13 +137,40 @@ const sidebars = {
             "reservas-online/mis-reservas/pdf-generado",
             "reservas-online/mis-reservas/vaciar-carrito",
             "reservas-online/mis-reservas/nueva-cotizacion",
+            // Asegurate que el ID del documento coincida exactamente:
             "reservas-online/mis-reservas/seleccionar-opcion",
             "reservas-online/mis-reservas/nueva-cotizacion-mismo-cliente",
-
           ],
         },
       ],
     },
+
+    // =========================
+    // Módulo: Aéreos (top-level)
+    // =========================
+    {
+      type: "category",
+      label: "Aéreos",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "aereos/intro",
+        "aereos/menu",
+        "aereos/filtrar",
+        "aereos/resultados",
+      ],
+    },
+    {
+  type: "category",
+  label: "Cupos",
+  collapsed: true,
+  items: [
+    "aereos/cupos/crear-cupos",
+    "aereos/cupos/crear-cupos-formulario",
+    "aereos/cupos/crear-cupos-formulario-2",
+    "aereos/cupos/crear-cupos-confirmacion",
+  ],
+}
   ],
 };
 
