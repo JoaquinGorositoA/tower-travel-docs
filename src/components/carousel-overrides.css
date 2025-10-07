@@ -1,0 +1,65 @@
+/* Aumentamos especificidad con el prefijo .ht-carousel */
+.ht-carousel .control-dots {
+  bottom: 10px;
+  z-index: 2;
+}
+
+.ht-carousel .control-dots .dot {
+  background: #666 !important;      /* visible en claro */
+  opacity: 0.9 !important;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 6px !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.ht-carousel .control-dots .dot.selected {
+  background: #6586C4 !important;   /* color activo */
+  opacity: 1 !important;
+  transform: scale(1.3);
+}
+
+/* Flechas SIEMPRE visibles (círculo oscuro + flecha blanca) */
+.ht-carousel .control-arrow {
+  background: rgba(0, 0, 0, 0.582) !important;  /* contraste en claro */
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
+  top: calc(50% - 20px) !important;
+  transition: background .2s ease;
+}
+
+.ht-carousel .control-arrow:hover {
+  background: rgba(0,0,0,0.7) !important;
+}
+
+.ht-carousel .control-prev:before,
+.ht-carousel .control-next:before {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important;
+}
+
+.ht-carousel .control-prev:before {
+  border-right: 12px solid #fff !important;  /* flecha blanca */
+}
+
+.ht-carousel .control-next:before {
+  border-left: 12px solid #fff !important;   /* flecha blanca */
+}
+
+/* Tema oscuro: ajustá si querés un fondo un poco más claro en flecha */
+html[data-theme="dark"] .ht-carousel .control-arrow {
+  background: rgba(255,255,255,0.25) !important;
+}
+html[data-theme="dark"] .ht-carousel .control-arrow:hover {
+  background: rgba(255,255,255,0.25) !important;
+}
+
+
+
+@media (max-width: 768px) {
+  .ht-carousel .control-arrow {
+    display: none !important;
+  }
+}
