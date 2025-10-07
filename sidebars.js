@@ -3,9 +3,13 @@
 const sidebars = {
   tutorialSidebar: [
     // =========================
-    // Módulo: Reservas Online
+    // Intro del manual
     // =========================
     "intro",
+
+    // =========================
+    // Módulo: Reservas Online
+    // =========================
     {
       type: "category",
       label: "Reservas Online",
@@ -20,19 +24,10 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            "reservas-online/general/descripcion",
-            "reservas-online/general/seleccionar-cliente",
-            "reservas-online/general/seleccionar-solapa",
-            "reservas-online/general/filtros",
-            "reservas-online/general/ver-tarifas",
-            "reservas-online/general/detalle.tarifas",
-            "reservas-online/general/anadir-al-carrito",
-            "reservas-online/general/error-sin-tarifa",
-            "reservas-online/general/servicios-tomados",
-            "reservas-online/general/ir-a-carrito",
-            "reservas-online/general/total-de-servicios",
-            "reservas-online/general/agregar-servicio",
-            "reservas-online/general/agregar-otro-servicio",
+            "reservas-online/general/carrito-y-servicios",
+            "reservas-online/general/errores-y-validaciones",
+            "reservas-online/general/filtros-y-resultados",
+            "reservas-online/general/ver-tarifas-y-detalle",
           ],
         },
 
@@ -137,7 +132,6 @@ const sidebars = {
             "reservas-online/mis-reservas/pdf-generado",
             "reservas-online/mis-reservas/vaciar-carrito",
             "reservas-online/mis-reservas/nueva-cotizacion",
-            // Asegurate que el ID del documento coincida exactamente:
             "reservas-online/mis-reservas/seleccionar-opcion",
             "reservas-online/mis-reservas/nueva-cotizacion-mismo-cliente",
           ],
@@ -146,31 +140,104 @@ const sidebars = {
     },
 
     // =========================
-    // Módulo: Aéreos (top-level)
+    // Módulo: Aéreos
     // =========================
     {
       type: "category",
       label: "Aéreos",
+      link: { type: "doc", id: "aereos/intro" },
       collapsible: true,
       collapsed: true,
       items: [
-        "aereos/intro",
-        "aereos/menu",
-        "aereos/filtrar",
-        "aereos/resultados",
+        {
+          type: "category",
+          label: "Cupos y Grupos",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            "aereos/cupos-y-grupos/busqueda-resultados",
+            "aereos/cupos-y-grupos/acciones-y-edicion",
+            "aereos/cupos-y-grupos/crear-cupo",
+          ],
+        },
+        {
+          type: "category",
+          label: "Interface",
+          collapsible: true,
+          collapsed: true,
+          items: ["aereos/interface/interface"],
+        },
+        {
+          type: "category",
+          label: "Mis Reservas",
+          collapsible: true,
+          collapsed: true,
+          items: ["aereos/mis-reservas/mis-reservas"],
+        },
+        {
+          type: "category",
+          label: "Voideado / Desestimado",
+          collapsible: true,
+          collapsed: true,
+          items: ["aereos/voideado-desestimado/voideado-desestimado"],
+        },
       ],
     },
     {
-  type: "category",
-  label: "Cupos",
-  collapsed: true,
-  items: [
-    "aereos/cupos/crear-cupos",
-    "aereos/cupos/crear-cupos-formulario",
-    "aereos/cupos/crear-cupos-formulario-2",
-    "aereos/cupos/crear-cupos-confirmacion",
-  ],
-}
+      type: "category",
+      label: "Excursiones",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "excursiones/intro",
+        "excursiones/crear-excursion",
+        "excursiones/tarifas",
+        "excursiones/editar-excursion",
+        "excursiones/eliminar-excursion",
+      ],
+    },
+    {
+      type: "category",
+      label: "Hoteles",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "hoteles/intro",
+        "hoteles/crear-hotel",
+        "hoteles/crear-contrato",
+        "hoteles/agregar-tarifa",
+        "hoteles/habitaciones",
+        "hoteles/contratos",
+        "hoteles/gestion-hoteles",
+      ],
+    },
+    {
+      type: "category",
+      label: "Asistencias",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "asistencias/intro",
+        "asistencias/buscar-prestador",
+        "asistencias/acciones-listado",
+        "asistencias/crear-plan",
+        "asistencias/editar-plan",
+        "asistencias/eliminar-plan",
+      ],
+    },
+    {
+      type: "category",
+      label: "Operaciones",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "operaciones/intro",
+        "operaciones/gestionar-reservas",
+        "operaciones/enviar-mails",
+        "operaciones/adjuntar-documentos",
+        "operaciones/configurar-operativos",
+      ],
+    },
   ],
 };
 
