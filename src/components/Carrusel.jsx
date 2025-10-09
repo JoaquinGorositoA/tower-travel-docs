@@ -1,31 +1,27 @@
+// src/components/Carrusel.jsx
 import React, {useEffect, useState} from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import Zoom from 'react-medium-image-zoom';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'react-medium-image-zoom/dist/styles.css';
-// 👇 importa los overrides DESPUÉS del CSS de la lib
 import './carousel-overrides.css';
-
-// 👇 clave para que /img/... funcione con cualquier baseUrl
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-export default function Carrusel({ imgs = [] }) {
+export default function Carrusel({ imgs = [], slides }) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mql = window.matchMedia?.('(max-width: 768px)');
+    const mql = typeof window !== 'undefined' && window.matchMedia?.('(max-width: 768px)');
     const onChange = e => setIsMobile(!!e.matches);
-    if (mql) {
-      onChange(mql);
-      mql.addEventListener?.('change', onChange);
-      return () => mql.removeEventListener?.('change', onChange);
-    }
+    if (mql) { onChange(mql); mql.addEventListener?.('change', onChange); }
+    return () => mql && mql.removeEventListener?.('change', onChange);
   }, []);
 
-  // Normalizamos rutas: aceptamos 'img/...' o '/img/...'
-  const items = imgs.map(p =>
-    p.startsWith('/') ? p : `/${p}`
-  );
+  // Permite strings (imgs) o objetos ({src, alt, caption})
+  const items = (slides && slides.length ? slides : imgs.map(src => ({ src })))
+    .map(it => ({ ...it, src: useBaseUrl(it.src.startsWith('/') ? it.src : `/${it.src}`) }));
+
+  if (!items.length) return <div style={{opacity:.7}}>Sin imágenes</div>;
 
   return (
     <Carousel
@@ -39,14 +35,16 @@ export default function Carrusel({ imgs = [] }) {
       stopOnHover
       swipeable
       emulateTouch
+      ariaLabel="Carrusel de capturas"
     >
-      {items.map((p, idx) => {
-        const resolved = useBaseUrl(p); // ← la magia para baseUrl
-        const ImgTag = (
+      {items.map((it, i) => {
+        const imgEl = (
           <img
-            src={resolved}
-            alt={`Imagen ${idx + 1}`}
-            loading="lazy"
+            src={it.src}
+            alt={it.alt || `Imagen ${i + 1}`}
+            loading={i === 0 ? 'eager' : 'lazy'}
+            fetchpriority={i === 0 ? 'high' : 'auto'}
+            decoding="async"
             style={{
               borderRadius: 8,
               maxHeight: 450,
@@ -58,7 +56,8 @@ export default function Carrusel({ imgs = [] }) {
         );
         return (
           <div
-            key={idx}
+            key={i}
+            className="ht-slide"
             style={{
               padding: '1rem',
               backgroundColor: 'var(--ifm-color-emphasis-100)',
@@ -67,7 +66,8 @@ export default function Carrusel({ imgs = [] }) {
               justifyContent: 'center',
             }}
           >
-            {isMobile ? ImgTag : <Zoom>{ImgTag}</Zoom>}
+            {isMobile ? imgEl : <Zoom>{imgEl}</Zoom>}
+            {it.caption && <p className="legend">{it.caption}</p>}
           </div>
         );
       })}

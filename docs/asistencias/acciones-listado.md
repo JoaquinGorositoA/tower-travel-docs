@@ -4,20 +4,19 @@ title: Acciones en el listado
 sidebar_label: Acciones en el listado
 ---
 
-## Acciones disponibles
+En la **columna Acciones** del listado de prestadores se visualizan las siguientes opciones:
 
-En la columna **Acciones** del listado de prestadores, se encuentran los íconos para administrar los registros:
-
-- ✏️ **Editar**: abre el formulario del prestador o plan para su modificación.  
+- ✏️ **Editar**: abre el formulario del prestador para modificar su información.  
 - 🗑️ **Eliminar**: solicita confirmación antes de eliminar el registro.  
-- ➕ **Crear plan**: inicia la creación de un nuevo plan asociado al prestador.
+- **≡ Menú (Ir al detalle)**: abre el **detalle del prestador**, donde se muestran los **planes asociados** y se encuentra la opción **Crear plan**.  
+  Ver: [Planes del prestador](./planes-del-prestador)
 
-<!-- ![Acciones Prestadores](/img/asistencias/acciones-listado.png) -->
+![Acciones Prestadores](/img/producto/acciones-listado.png)
 
 ### Otras funciones
 
-- **Ordenar por columna:** clic en el encabezado de la columna para ordenar alfabéticamente o por estado.  
-- **Paginación:** permite navegar entre páginas del listado.  
-- **Cantidad de registros por página:** configurable desde el menú inferior del listado.
+- **Ordenar por columna**: permite ordenar por las columnas disponibles.  
+- **Paginación**: permite navegar entre páginas del listado.  
+- **Cantidad de registros por página**: configurable (10, 20 o 30).
 
-> Las acciones y opciones disponibles dependen del rol del usuario dentro del sistema.
+

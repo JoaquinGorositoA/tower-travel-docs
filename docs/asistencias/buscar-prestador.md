@@ -4,25 +4,22 @@ title: Buscar prestador
 sidebar_label: Buscar prestador
 ---
 
-## Búsqueda de prestadores
 
-En la pantalla principal de **Asistencias**, se puede buscar un prestador mediante los siguientes filtros:
+En la pantalla principal de **Asistencias**, se puede localizar un prestador mediante el **ícono de la lupa** del listado.  
+Ingresar el **nombre del prestador** para refinar la búsqueda.
 
-- **Nombre del prestador**
-- **Estado** (Habilitado / Inhabilitado)
-- **País**
-- **Ciudad**
 
-Presionar **Buscar** para ejecutar el filtro o **Limpiar** para reiniciar los campos.
-
-<!-- ![Buscar Prestador](/img/asistencias/buscar-prestador.png) -->
+![Búsqueda con lupa](/img/producto/buscador.png)
 
 ### Resultado de la búsqueda
 
-El sistema mostrará una lista con todos los prestadores que cumplan las condiciones indicadas.
+El sistema muestra un **listado** con los prestadores que coinciden con el término ingresado.
 
 ### Habilitar / Inhabilitar
 
-En cada registro se encuentra un interruptor que permite **habilitar o inhabilitar** un prestador según la disponibilidad o vigencia del contrato.
+Cada registro incluye un control que permite **habilitar** o **inhabilitar** un prestador.  
+Antes de aplicar el cambio se solicita **confirmación** y, al finalizar, se muestra un **mensaje de éxito**.
 
-> Solo los usuarios con permisos de gestión pueden modificar el estado de un prestador.
+:::tip
+También es posible **ordenar** por columna y seleccionar la **cantidad de registros por página**.
+:::
