@@ -5,7 +5,7 @@ const sidebars = {
     // =========================
     // Intro del manual
     // =========================
-    "intro",
+    // "intro",
 
     // =========================
     // Módulo: Reservas Online
@@ -220,6 +220,8 @@ const sidebars = {
         "asistencias/intro",
         "asistencias/buscar-prestador",
         "asistencias/acciones-listado",
+        "asistencias/planes-del-prestador",
+        "asistencias/editar-prestador",
         "asistencias/crear-plan",
         "asistencias/editar-plan",
         "asistencias/eliminar-plan",
