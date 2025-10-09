@@ -5,7 +5,7 @@ const sidebars = {
     // =========================
     // Intro del manual
     // =========================
-    "intro",
+    // "intro",
 
     // =========================
     // Módulo: Reservas Online
