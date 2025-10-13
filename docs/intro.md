@@ -1,6 +1,7 @@
 ---
+id: intro
 title: Intro
-
+slug: /
 ---
 
-E.....
+Intorducción

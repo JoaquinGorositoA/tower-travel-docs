@@ -1,37 +1,17 @@
 ---
-id: editar-excursion
-title: Editar Excursión
-sidebar_label: Editar Excursión
+title: Editar excursión
+sidebar_label: Editar excursión
 ---
 
-## Editar una excursión
+## Acceso
+En **Excursiones del prestador**, hacer clic en **✏️ Editar** en la columna **Acciones**.
 
-En la solapa **Acciones**, el usuario encontrará los íconos de ✏️ **Editar** y 🗑️ **Eliminar**.
+## Edición
+Se abre el mismo formulario de **Crear excursión**, precargado con los datos actuales.  
+En la versión vigente, **todos los campos son editables**, con las mismas validaciones que en la creación.
 
-Haciendo clic en **Editar**, se abrirá la pestaña de edición donde se podrán actualizar los siguientes campos:
+## Guardar
+Seleccionar **Guardar** para aplicar los cambios.  
+El sistema muestra el **mensaje de actualización exitosa**.
 
-- Nombre y proveedor  
-- Descripción y políticas de cancelación  
-- Galería  
-- Origen, puntos intermedios y destino  
-- Unidad de negocio y disponibilidad  
-- Tarifa aplicable  
-- Duración, inclusiones y rango de edades  
-- Tarifas
-
----
-
-### Confirmar cambios
-
-Presionar **Guardar**.  
-El sistema mostrará el mensaje:
-
-> ✅ *“El registro fue actualizado con éxito.”*
-
----
-
-### Habilitar / Inhabilitar excursión
-
-Haciendo clic en el ícono correspondiente, se puede **activar o desactivar** una excursión.  
-El sistema solicitará confirmación:
-> ⚠️ *“¿Está seguro que desea cambiar el estado del registro?”*
+![Editar excursión](/img/producto/excursiones/editar-excursion.svg)
