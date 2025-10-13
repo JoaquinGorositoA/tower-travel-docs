@@ -1,19 +1,12 @@
 ---
-id: eliminar-excursion
-title: Eliminar Excursión
-sidebar_label: Eliminar Excursión
+title: Eliminar excursión
+sidebar_label: Eliminar excursión
 ---
 
 ## Eliminar excursión
+En **Excursiones del prestador**, hacer clic en el ícono de **eliminar** en la columna **Acciones**.  
+El sistema solicita **confirmación** y, al aceptar, muestra el **mensaje de eliminación exitosa**.
 
-Para eliminar una excursión, presione el ícono 🗑️ ubicado en la solapa **Acciones**.
-
-El sistema mostrará una alerta:
-
-> ⚠️ *“¿Está seguro que desea eliminar el registro?”*
-
-Al confirmar con **Borrar**, se mostrará el mensaje final:
-
-> 🗑️ *“El registro fue eliminado con éxito.”*
-
-> Solo los usuarios con permisos de administración pueden eliminar excursiones registradas.
+:::warning Importante
+Si existen condiciones específicas (por ejemplo, tarifas vigentes), el sistema mostrará el mensaje correspondiente antes de permitir la eliminación.
+:::

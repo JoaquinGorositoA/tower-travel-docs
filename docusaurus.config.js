@@ -2,17 +2,16 @@
 // @ts-check
 
 const config = {
-  title: 'Tower Travel',   // cambia "My Site" por tu título
-  tagline: '',                // podés dejarlo vacío o poner un subtítulo
-  favicon: 'img/logo.svg', // poné el logo de tu empresa
+  title: 'Tower Travel',
+  tagline: '',
+  favicon: 'img/logo.svg',
 
-  url: 'https://joaquingorositoa.github.io', 
+  url: 'https://joaquingorositoa.github.io',
   baseUrl: '/tower-travel-docs/',
   organizationName: 'JoaquinGorositoA',
   projectName: 'tower-travel-docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
-
 
   i18n: {
     defaultLocale: 'es',
@@ -24,10 +23,10 @@ const config = {
       'classic',
       {
         docs: {
-          routeBasePath: '/',              // 👈 hace que los docs sean la home
+          routeBasePath: '/',                 // los docs son la home
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: false,                       // 👈 desactiva el blog
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -36,16 +35,26 @@ const config = {
   ],
 
   themeConfig: {
+    // ✅ Auto-colapsar categorías del sidebar
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,  // solo queda abierta la categoría activa
+        hideable: true,                // botón para ocultar/mostrar el sidebar
+      },
+    },
+
     navbar: {
-      title: 'Manual de uso Tower Travel',            // 👈 aparece arriba a la izquierda
+      title: 'Manual de uso Tower Travel',
       logo: {
         alt: 'Tower Travel',
-        src: 'img/logo.svg',               // opcional si cargás un logo
+        src: 'img/logo.svg',
       },
       items: [
-        { to: '/', label: 'Manual', position: 'left' }, // 👈 link al manual
+        // ✅ Linkea directamente al doc "intro"
+        { type: 'doc', docId: 'intro', label: 'Manual', position: 'left' },
       ],
     },
+
     footer: {
       style: 'dark',
       copyright: `© ${new Date().getFullYear()} Tower Travel`,

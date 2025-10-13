@@ -1,6 +1,5 @@
 ---
 title: Reservas Online
-slug: /
 ---
 
 # Reservas Online

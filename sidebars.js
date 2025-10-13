@@ -5,7 +5,7 @@ const sidebars = {
     // =========================
     // Intro del manual
     // =========================
-    // "intro",
+    { type: 'doc', id: 'intro', label: 'Introduccion' },
 
     // =========================
     // Módulo: Reservas Online
@@ -183,19 +183,8 @@ const sidebars = {
         },
       ],
     },
-    {
-      type: "category",
-      label: "Excursiones",
-      collapsible: true,
-      collapsed: true,
-      items: [
-        "excursiones/intro",
-        "excursiones/crear-excursion",
-        "excursiones/tarifas",
-        "excursiones/editar-excursion",
-        "excursiones/eliminar-excursion",
-      ],
-    },
+
+
     {
       type: "category",
       label: "Hoteles",
@@ -238,6 +227,23 @@ const sidebars = {
         "operaciones/enviar-mails",
         "operaciones/adjuntar-documentos",
         "operaciones/configurar-operativos",
+      ],
+    },
+        {
+      type: "category",
+      label: "Excursiones",
+      link: { type: "doc", id: "excursiones/excursiones-intro" }, // antes: intro
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "excursiones/excursiones-acciones-listado",
+        "excursiones/excursiones-del-prestador",
+        "excursiones/crear-excursion",
+        "excursiones/editar-excursion",
+        "excursiones/eliminar-excursion",
+        // opcional:
+        "excursiones/excursiones-agregar-tarifa",
+        "excursiones/excursiones-editar-prestador",
       ],
     },
   ],
