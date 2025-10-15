@@ -1,21 +1,23 @@
 ---
-id: contratos
-title: Contratos — Gestión
+title: Contratos
 sidebar_label: Contratos
 ---
 
-## Gestión de contratos
+## Listado de contratos del hotel
+Columnas principales: **Nombre**, **Proveedor**, **Hab/Inhab**, **Acciones**.  
+Controles: **Buscar por nombre**, **Ordenar**, **Mostrar N** registros.
 
-En la vista de **Contratos** se listan todos los contratos asociados al hotel con sus acciones por registro.
+### Acciones disponibles
+- ✏️ **Editar**: abre el contrato para actualizar datos y **Guardar**.
+- 💲 **Ver tarifas**: abre el listado de **Tarifas** del contrato.
+- 📄 **Clonar contrato**: duplica el contrato actual (según permisos).
+- 🗑️ **Eliminar**: solicita confirmación y elimina el contrato.
 
-### Acciones por contrato
-- ✏️ **Editar**: abre el formulario para actualizar datos.  
-- 👁️ **Ver tarifas**: muestra las tarifas cargadas y habilita crear nuevas.  
-- 🗑️ **Eliminar**: solicita confirmación y elimina el registro.  
-- 🔁 **Habilitar / Inhabilitar**: cambia el estado operativo del contrato.
+![Listado de contratos](/img/producto/hoteles/contratos.png)
 
-### Confirmaciones del sistema
-- Al **Guardar** cambios: *El registro fue actualizado con éxito*.  
-- Al **Eliminar**: *¿Está seguro que desea eliminar el registro?* → *El registro fue eliminado con éxito*.
+## Tarifas de un contrato
+Listado de **tarifas** con columnas **Nombre**, **BW**, **TW**, **Hab/Inhab** y **Acciones**.  
+Acciones en la grilla: ✏️ **Editar**, 📄 **Clonar**, 🗑️ **Eliminar**.  
+Acción superior: **+ Agregar tarifa**.
 
-<!-- ![Listado de Contratos](/img/hoteles/contratos/listado.png) -->
+![Ver tarifas](/img/producto/hoteles/ver-tarifas.png)

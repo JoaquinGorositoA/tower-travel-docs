@@ -1,26 +1,33 @@
 ---
-id: gestion-hoteles
-title: Hoteles — Gestión
+title: Gestión de hoteles
 sidebar_label: Gestión de hoteles
 ---
 
-## Edición y baja de hoteles
+## Listado de hoteles
+En el listado se muestran las columnas **Nombre**, **Ubicación**, **Prestador**, **Hab/Inhab** y la columna **Acciones**.
 
-Desde el listado de **Hoteles**, cada registro dispone de acciones para administrar la información.
+### Acciones disponibles
+- ✏️ **Editar**: abre el formulario del hotel.
+- 🗑️ **Eliminar**: solicita confirmación y elimina el registro.
+- 📄 **Ver contratos**: abre el listado de **Contratos** del hotel.
+- 🗺️ **Ver cupos y bloqueos**: abre la pantalla de **Cupos y bloqueos** para este hotel.
 
-### Editar hotel
-Seleccionar ✏️ **Editar**, actualizar los datos (generales, descripción, políticas, rangos de edad, galería) y **Guardar**.  
-El sistema confirmará la actualización.
+![Listado de hoteles](/img/producto/hoteles/listado-hoteles.png)
 
-### Eliminar hotel
-Seleccionar 🗑️ **Eliminar**.  
-Se mostrará una confirmación:  
-**¿Está seguro que desea eliminar el registro?**  
-Al aceptar, se informará **El registro fue eliminado con éxito**.
+## Cupos y bloqueos
+Pantalla con pestañas **Mapa / Cupos / Bloqueos** y filtros:
 
-> Solo usuarios con permisos de administración pueden eliminar hoteles.
+- **Nombre del hotel** *(obligatorio)*
+- **Base** *(obligatorio)*
+- **Tipo de habitación** *(obligatorio)*
+- **Fecha** *(obligatorio)*
 
-### Estado operativo
-En algunos escenarios, es posible **habilitar / inhabilitar** un hotel sin eliminarlo, para retirar su disponibilidad temporalmente.
+Acción: **Buscar**.
 
-<!-- ![Acciones en Hoteles](/img/hoteles/gestion/acciones.png) -->
+![Cupos y bloqueos](/img/producto/hoteles/cupos-y-bloqueos.png)
+
+## Edición de hotel
+Permite actualizar todos los campos del hotel (incluye descripciones/políticas por idioma, contactos, rangos de edad, galería e índice de habitaciones).  
+Acciones: **Cancelar** / **Guardar**.
+
+![Editar hotel](/img/producto/hoteles/editar-hotel.png)

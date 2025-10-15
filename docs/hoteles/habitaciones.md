@@ -1,34 +1,17 @@
 ---
-id: habitaciones
 title: Habitaciones
 sidebar_label: Habitaciones
 ---
 
-## Gestión de habitaciones
+## Gestión de habitaciones del hotel
+En la grilla de **Habitaciones** se muestran las columnas, el **estado Hab/Inhab** y las **Acciones** por fila.
 
-En la solapa **Habitaciones** del hotel, se pueden crear, editar o eliminar tipos de habitación, y asociar tarifas por ocupación.
+### Acciones por habitación
+- ✏️ **Editar**: habilita edición en línea de la fila.
+- 💾 **Guardar** / **Cancelar**: confirman o desestiman cambios.
+- 🗑️ **Eliminar**: quita la habitación de la lista.
+- ✅ **Hab/Inhab**: alterna el estado de publicación.
 
-### Crear habitación
-- **Nombre / Tipo** (ej.: Standard, Superior, Suite)  
-- **Capacidad** (adultos / menores)  
-- **Camas** (matrimonial / twin / adicionales)  
-- **Observaciones** (opcional)
+### Crear y continuar contrato
+El botón **Guardar y crear contrato** permite guardar los cambios del hotel y abrir el flujo de **contratación**.
 
-Presionar **Crear** para confirmar.
-
-<!-- ![Crear Habitación](/img/hoteles/habitaciones/crear.png) -->
-
-### Editar habitación
-Seleccionar ✏️ **Editar**, actualizar los campos necesarios y **Guardar**.
-
-### Eliminar habitación
-Seleccionar 🗑️ **Eliminar**.  
-El sistema solicitará confirmación y, al aprobar, mostrará **registro eliminado con éxito**.
-
-### Tarifas por habitación
-Desde la habitación, acceder a **Tarifas** para crear o asignar precios específicos:  
-- Estructura por ocupación (SGL / DBL / TPL / QUAD)  
-- Reglas de menores (según rango de edad configurado)  
-- Moneda y régimen (si aplica)
-
-> Las tarifas de habitación pueden heredar o complementar las del contrato, según configuración del sistema.

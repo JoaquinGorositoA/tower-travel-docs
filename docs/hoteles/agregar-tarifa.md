@@ -1,44 +1,35 @@
 ---
-id: agregar-tarifa
-title: Agregar Tarifa
+title: Agregar tarifa
 sidebar_label: Agregar tarifa
 ---
 
-## Agregar tarifa a un contrato
+## Acceso
+Desde **Contratos → Ver tarifas**, el usuario puede **agregar las tarifas** necesarias al contrato completando los campos requeridos.
 
-Dentro del contrato, ingresar a **Tarifas** y seleccionar **Crear tarifa**.
+![Crear tarifa](/img/producto/hoteles/crear-tarifa.png)
 
-### Datos principales
-- **Nombre de tarifa** (obligatorio)  
-- **Régimen** (obligatorio)  
-- **Moneda** (búsqueda por código / nombre)  
-- **Días de aplicación** (L a D)  
-- **Booking Window (BW)**: si aplica, indicar **desde / hasta**  
-- **Travel Window (TW)**: periodo de prestación del servicio (**obligatorio**)
+## Ingreso de datos
+**Nombre:** completar con el nombre de la tarifa. Puede darse de alta en **tres idiomas** (Español, Inglés y Portugués).  
+**Días:** seleccionar el/los días en que la tarifa será válida.  
+**Moneda:** elegir la moneda en la que se expresa la tarifa.
 
-<!-- ![Crear Tarifa](/img/hoteles/tarifas/crear-tarifa.png) -->
+## Condiciones de aplicación
+**Tipo de tarifa:** seleccionar si se aplica **por persona** o **por habitación**.  
+**Disponibilidad:** seleccionar la opción correspondiente.  
+**Régimen:** elegir desde el desplegable.
 
-### Tarifa promocional
-- **¿Promocional?** (Sí/No)  
-  - Si **Sí**, completar:  
-    - **Código promocional**  
-    - **Fecha de vencimiento de pago**  
-    - **Observaciones** (opcional)
+## Promoción (opcional)
+**Código promocional:** escribir el código de promoción (permite letras y números, **máximo 20 caracteres**).  
+**Fecha para vencimiento del pago:** elegir la fecha de vencimiento del pago.  
+**Observaciones:** escribir la información que aplique (solo letras, **máximo 300 caracteres**).
 
-### Políticas de vencimiento
-- **Días después de la reserva**  
-- **Días antes del check-in**  
+## Políticas de vencimiento
+Completar los campos:  
+**Días después de la reserva** y **Días antes del check-in** (permiten **solo números**, **máximo 10**).
 
-### Estructura de precios (por ocupación / tipo pasajero)
-- **Base / Neto / Impuestos / Percepciones**  
-- **Markup / Comisión**  
-- **Venta total**  
-- **Ocupaciones**: SGL, DBL, TPL, QUAD (según configuración)  
-- **Niños / Infantes**: valores y edades según rango definido
+## Tarifa por habitación (opcional)
+El usuario puede **agregar una tarifa a una habitación creada anteriormente** haciendo clic en **Agregar tarifa habitación**.  
+Luego seleccionar la **habitación** (se abre una ventana de selección) y completar los datos.
 
-### Guardar y confirmaciones
-1. Presionar **Crear** para guardar la tarifa.  
-2. Confirmar con **Guardar** el contrato (si el flujo lo requiere).  
-El sistema mostrará **la tarifa fue guardada con éxito** y **el registro fue actualizado**.
-
-> Nota: los campos obligatorios deben estar completos para calcular y validar los importes.
+## Confirmación
+Para guardar la nueva tarifa, hacer clic en **Crear**. El sistema muestra el mensaje de confirmación correspondiente.
