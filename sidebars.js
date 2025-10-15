@@ -12,7 +12,7 @@ const sidebars = {
     // =========================
     {
       type: "category",
-      label: "Reservas Online",
+      label: "Reservas Online - Ventas",
       link: { type: "doc", id: "reservas-online/index" },
       collapsible: true,
       collapsed: true,
@@ -24,6 +24,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
+            "reservas-online/general/seleccionar-cliente",  
+            "reservas-online/general/ingreso-modulo",  
             "reservas-online/general/carrito-y-servicios",
             "reservas-online/general/errores-y-validaciones",
             "reservas-online/general/filtros-y-resultados",
@@ -185,22 +187,16 @@ const sidebars = {
     },
 
 
-    {
-      type: "category",
-      label: "Hoteles",
-      collapsible: true,
-      collapsed: true,
-      items: [
-        "hoteles/intro",
-        "hoteles/crear-hotel",
-        "hoteles/crear-contrato",
-        "hoteles/agregar-tarifa",
-        "hoteles/habitaciones",
-        "hoteles/contratos",
-        "hoteles/gestion-hoteles",
-      ],
-    },
-    {
+// --- Productos (Hoteles, Asistencias, Excursiones) ---
+{
+  type: "category",
+  label: "Productos",
+  link: { type: "generated-index", title: "Productos" }, // opcional
+  collapsible: true,
+  collapsed: true,
+  items: [
+
+       {
       type: "category",
       label: "Asistencias",
       collapsible: true,
@@ -216,23 +212,11 @@ const sidebars = {
         "asistencias/eliminar-plan",
       ],
     },
-    {
-      type: "category",
-      label: "Operaciones",
-      collapsible: true,
-      collapsed: true,
-      items: [
-        "operaciones/intro",
-        "operaciones/gestionar-reservas",
-        "operaciones/enviar-mails",
-        "operaciones/adjuntar-documentos",
-        "operaciones/configurar-operativos",
-      ],
-    },
+
         {
       type: "category",
       label: "Excursiones",
-      link: { type: "doc", id: "excursiones/excursiones-intro" }, // antes: intro
+      link: { type: "doc", id: "excursiones/excursiones-intro" },
       collapsible: true,
       collapsed: true,
       items: [
@@ -246,6 +230,71 @@ const sidebars = {
         "excursiones/excursiones-editar-prestador",
       ],
     },
+
+            {
+      type: "category",
+      label: "Guias",
+      link: { type: "doc", id: "guias/guias-intro" },
+      collapsible: true,
+      collapsed: true,
+      items: [
+      ],
+    },
+
+    {
+      type: "category",
+      label: "Hoteles",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        "hoteles/intro",
+        "hoteles/crear-hotel",
+        "hoteles/crear-contrato",
+        "hoteles/agregar-tarifa",
+        "hoteles/habitaciones",
+        "hoteles/contratos",
+        "hoteles/gestion-hoteles",
+      ],
+    },
+
+                {
+      type: "category",
+      label: "Traslados",
+      link: { type: "doc", id: "traslados/traslados-intro" },
+      collapsible: true,
+      collapsed: true,
+      items: [
+      ],
+    },
+                {
+      type: "category",
+      label: "Paquetes",
+      link: { type: "doc", id: "paquetes/paquetes-intro" },
+      collapsible: true,
+      collapsed: true,
+      items: [
+      ],
+    },
+
+ 
+
+  ],
+},
+
+// --- Operaciones (fuera de Productos) ---
+{
+  type: "category",
+  label: "Operaciones",
+  collapsible: true,
+  collapsed: true,
+  items: [
+    "operaciones/intro",
+    "operaciones/gestionar-reservas",
+    "operaciones/enviar-mails",
+    "operaciones/adjuntar-documentos",
+    "operaciones/configurar-operativos",
+  ],
+},
   ],
 };
 

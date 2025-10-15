@@ -1,28 +1,19 @@
 ---
-id: crear-contrato
-title: Crear Contrato
+title: Crear contrato
 sidebar_label: Crear contrato
 ---
 
-## Crear contrato
+## Acceso
+Desde el detalle del hotel, seleccionar **Crear contrato**.
 
-Desde el hotel, acceder a la solapa **Contratos** y seleccionar **Crear contrato**.
+## Campos del contrato
+- **Nombre** *(obligatorio)*  
+- **Proveedor** *(obligatorio)*  
+- **Tipo de contrato**: **Base** u **Oferta**  
+- **Etiqueta de negocio**: **Incoming** / **Partners**  
+- **Archivos**: adjuntar **PDF** *(tamaño máximo 2 MB)*
 
-### Datos del contrato
-- **Nombre / Identificador**  
-- **Proveedor** (si corresponde)  
-- **Vigencia** (desde / hasta)  
-- **Régimen** (Solo Habitación / Desayuno / Media pensión / Pensión completa)  
-- **Políticas / Observaciones** (opcional)
+Acciones: **Cancelar** / **Guardar**.  
+Mensaje esperado: **“Registro fue creado con éxito.”**
 
-<!-- ![Formulario Contrato](/img/hoteles/contrato/crear-contrato.png) -->
-
-### Acciones del contrato (por registro)
-- ✏️ **Editar**: modificar datos del contrato.  
-- 👁️ **Ver tarifas**: acceder a la solapa de tarifas del contrato.  
-- 🗑️ **Eliminar**: borrar el contrato (requiere confirmación).  
-- 🔁 **Habilitar / Inhabilitar**: activar o desactivar el contrato.
-
-### Confirmaciones
-- Al crear/editar, el sistema muestra mensaje de **registro actualizado con éxito**.  
-- Al eliminar, solicita confirmación y, si se aprueba, informa **registro eliminado con éxito**.
+![Crear/Editar contrato](/img/producto/hoteles/crear-contrato.png)
