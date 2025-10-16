@@ -1,6 +1,6 @@
 ---
 title: Ingreso al módulo
-id: ingreso-modulo
+
 ---
 
 ## Descripción

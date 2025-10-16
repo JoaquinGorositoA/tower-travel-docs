@@ -13,7 +13,6 @@ const sidebars = {
     {
       type: "category",
       label: "Reservas Online - Ventas",
-      link: { type: "doc", id: "intro" },
       collapsible: true,
       collapsed: true,
       items: [
