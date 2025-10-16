@@ -8,13 +8,13 @@ slug: /
 ## Bienvenido/a
 Este manual reúne los módulos funcionales de Tower Travel. Elegí un módulo para empezar o usá el menú lateral.
 
-:::info Sugerencia
+<!-- :::info Sugerencia
 Si una sección no se despliega, navegá primero a su **Introducción** desde estas tarjetas.
-:::
+::: -->
 
 <div className="cardsGrid">
 
-  <a className="cardLink" href="./reservas-online/index">
+  <a className="cardLink" href="./reservas-online/intro">
     <h3>Reservas Online</h3>
     <p>Búsqueda y compra de servicios.</p>
     <ul>
