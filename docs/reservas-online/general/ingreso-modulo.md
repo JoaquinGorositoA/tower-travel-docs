@@ -36,4 +36,4 @@ Desde allí, el usuario debe dirigirse a la sección **“Productos”** y selec
 
 Al ingresar, el sistema redirige al proceso de **selección de cliente**, paso inicial obligatorio para crear o cotizar una reserva.  
 Este proceso se describe en el siguiente apartado:  
-👉 [Selección de cliente](./seleccion-cliente.md)
+👉 [Selección de cliente](./seleccionar-cliente)
