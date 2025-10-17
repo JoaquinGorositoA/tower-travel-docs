@@ -26,7 +26,7 @@ Si el usuario no recuerda su contraseña, puede utilizar la opción **“Olvidé
 ## Selección del módulo
 
 Una vez iniciada la sesión, se mostrará el **panel principal del sistema**, que contiene todos los módulos disponibles.  
-Desde allí, el usuario debe dirigirse a la sección **“Productos”** y seleccionar el módulo **Reservas Online**.
+Desde allí, el usuario debe dirigirse al módulo **Reservas Online**.
 
 ![Acceso módulo](/img/reservas-online/modulos.png)
 

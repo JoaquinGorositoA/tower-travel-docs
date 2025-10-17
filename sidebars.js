@@ -23,8 +23,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            "reservas-online/general/seleccionar-cliente",  
             "reservas-online/general/ingreso-modulo",  
+            "reservas-online/general/seleccionar-cliente",  
             "reservas-online/general/carrito-y-servicios",
             "reservas-online/general/errores-y-validaciones",
             "reservas-online/general/filtros-y-resultados",

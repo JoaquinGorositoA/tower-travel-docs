@@ -41,8 +41,9 @@ Las opciones disponibles pueden incluir:
 - 🧳 **Paquetes**  
 - 🚐 **Traslados**  
 - 🌄 **Excursiones**  
-- ✈️ **Aéreos**  
-- 🛡️ **Asistencias**  
+- 👮‍♂️ **Guías**
 - 🎟️ **Circuitos**
+- ✈️ **Aéreos**  
+- 🩺 **Asistencias**  
 
 > Al seleccionar una opción, se habilitan los filtros correspondientes (destino, fechas, pasajeros, etc.).
