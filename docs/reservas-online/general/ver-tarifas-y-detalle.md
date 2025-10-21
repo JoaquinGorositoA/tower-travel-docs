@@ -8,7 +8,7 @@ sidebar_label: Ver tarifas y detalle
 **Objetivo:** confirmar **condiciones** y **precio** antes de agregar al **carrito**.
 
 ## Dónde aparece
-Desde **Búsqueda y Resultados**, hacé clic en **Ver tarifas** sobre el resultado elegido.
+Desde **Búsqueda y Resultados**, seleccionar **Ver tarifas** sobre el resultado elegido.
 
 ![Seleccionar solapa](/img/reservas-online/detalle-tarifa.png)
 
@@ -33,8 +33,8 @@ Se despliega la **lista de tarifas** (filas o tarjetas). Cada tarifa muestra:
 ---
 
 ## Cómo elegir (3 pasos)
-1. Abrí **Ver tarifas** y revisá el **detalle**.
-2. Seleccioná la **tarifa** que quieras.
+1. Abrir **Ver tarifas** y revisar el **detalle**.
+2. Seleccionar la **tarifa** que quieras.
 3. **Añadir al carrito**.
 
 <!-- ## Mensajes comunes
@@ -43,7 +43,7 @@ Se despliega la **lista de tarifas** (filas o tarjetas). Cada tarifa muestra:
 - **Ocupación incompatible** → ajustá pasajeros/edades en la búsqueda. -->
 
 ## Próximo paso
-Con la opción elegida, **añadí al carrito** y continuá en **[Carrito](../general/carrito-y-servicios.md)**.
+Con la opción elegida, **añadí al carrito** y continua en **[Carrito](../general/carrito-y-servicios.md)**.
 
 <!-- Imagen sugerida (cuando la tengas en /static/img/reservas-online/general/):
 ![Ver tarifas y detalle](/img/reservas-online/general/ver-tarifas-detalle.png)
