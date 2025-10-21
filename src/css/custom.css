@@ -81,3 +81,10 @@ article img {
 .cardLink ul {
   margin: 0 0 0 16px;
 }
+
+
+.menu__list-item.sidebar-hidden,
+.menu__link.sidebar-hidden,
+.theme-doc-sidebar-item-category.sidebar-hidden {
+  display: none !important;
+}

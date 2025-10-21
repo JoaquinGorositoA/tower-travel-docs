@@ -1,6 +1,6 @@
 ---
-title: Selección de cliente
-sidebar_label: Selección de cliente
+title: ¿Cómo selecciono un cliente?
+sidebar_label: ¿Cómo selecciono un cliente?
 ---
 
 ## Descripción
@@ -29,21 +29,6 @@ Una vez ingresadas las primeras letras, el sistema despliega un listado con los 
 
 Seleccionar el cliente deseado para continuar.
 
-## Selección de tipo de servicio
 
-Luego de elegir el cliente, se accede al buscador principal, donde es posible seleccionar el tipo de servicio a cotizar o reservar:
-
-![Selección de servicios](/img/reservas-online/general/seleccion-servicios.png)
-
-Las opciones disponibles pueden incluir:
-
-- 🏨 **Alojamiento**  
-- 🧳 **Paquetes**  
-- 🚐 **Traslados**  
-- 🌄 **Excursiones**  
-- 👮‍♂️ **Guías**
-- 🎟️ **Circuitos**
-- ✈️ **Aéreos**  
-- 🩺 **Asistencias**  
 
 > Al seleccionar una opción, se habilitan los filtros correspondientes (destino, fechas, pasajeros, etc.).
