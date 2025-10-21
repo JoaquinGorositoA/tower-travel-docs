@@ -29,7 +29,8 @@ const sidebars = {
             "reservas-online/general/filtros-y-resultados",
             "reservas-online/general/ver-tarifas-y-detalle",
             "reservas-online/general/carrito-y-servicios",
-            "reservas-online/general/errores-y-validaciones",
+            "reservas-online/general/nominacion",
+            // "reservas-online/general/errores-y-validaciones",
             "reservas-online/general/menu-usuario",
             
           ],
@@ -42,9 +43,7 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            "reservas-online/alojamiento/solapa-alojamiento",
-            "reservas-online/alojamiento/busqueda",
-            "reservas-online/alojamiento/listado-hoteles",
+            "reservas-online/alojamiento/alojamiento",
           ],
         },
 
@@ -55,9 +54,7 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            "reservas-online/traslados/filtros",
-            "reservas-online/traslados/resultados",
-            "reservas-online/traslados/anadir-al-carrito",
+            "reservas-online/traslados/traslados",
           ],
         },
 
@@ -68,9 +65,7 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            "reservas-online/excursiones/filtros",
-            "reservas-online/excursiones/resultados",
-            "reservas-online/excursiones/anadir-al-carrito",
+            "reservas-online/excursiones/excursiones",
           ],
         },
 
@@ -82,8 +77,6 @@ const sidebars = {
           collapsed: true,
           items: [
             "reservas-online/asistencias/asistencias",
-            "reservas-online/asistencias/resultados-asistencias",
-            "reservas-online/asistencias/anadir-asistencia-carrito",
           ],
         },
 
