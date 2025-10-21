@@ -1,5 +1,5 @@
 ---
-id: ver-tarifas-detalle
+id: ver-tarifas-y-detalle
 title: Ver tarifas y detalle
 sidebar_label: Ver tarifas y detalle
 ---
