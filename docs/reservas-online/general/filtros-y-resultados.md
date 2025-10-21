@@ -27,9 +27,9 @@ Se muestra una **lista de resultados**. Cada tarjeta o fila, en general, incluye
 ![Seleccionar solapa](/img/reservas-online/listado-hoteles.png)
 
 ## Cómo avanzar
-1. Revisá los resultados.  
-2. Abrí **Ver detalle** para ver **tarifas y opciones**.  
-3. Desde el detalle, **agregá al carrito**.
+1. Revisar los resultados.  
+2. Abrir **Ver detalle** para ver **tarifas y opciones**.  
+3. Desde el detalle, **agregar al carrito**.
 
 ## Mensajes comunes
 - **Sin resultados:** “No se encontró resultado para los parámetros de búsqueda solicitados.”  
