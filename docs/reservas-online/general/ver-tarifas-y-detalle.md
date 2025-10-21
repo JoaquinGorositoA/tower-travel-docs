@@ -1,33 +1,50 @@
 ---
-id: ver-tarifas-y-detalle
-title: Ver Tarifas y Detalle
-sidebar_label: Tarifas y Detalle
+id: ver-tarifas-detalle
+title: Ver tarifas y detalle
+sidebar_label: Ver tarifas y detalle
 ---
 
-## 💰 Visualización de tarifas
+# Ver tarifas y detalle
+**Objetivo:** confirmar **condiciones** y **precio** antes de agregar al **carrito**.
 
-Una vez identificado el servicio deseado, haga clic en la opción **Ver tarifas** para desplegar la información completa del producto.  
-La vista incluye:
+## Dónde aparece
+Desde **Búsqueda y Resultados**, hacé clic en **Ver tarifas** sobre el resultado elegido.
 
-- **Descripción del servicio**  
-- **Fechas de validez**  
-- **Tipo de tarifa y moneda**  
-- **Condiciones de pago y cancelación**  
-- **Disponibilidad por habitación o pasajero**
-
-<!-- ![Ver tarifas](../../static/img/reservas-online/general/ver-tarifas.png) -->
+![Seleccionar solapa](/img/reservas-online/detalle-tarifa.png)
 
 ---
 
-## 🧩 Detalle del servicio
+## Antes de desplegar
+En la tarjeta del resultado vas a ver:
+- **Nombre** del producto
+- **Destino / ubicación**
+- **Fechas** que buscaste
+- **Precio “desde”** (si aplica)
+- Botón **Ver tarifas**
+  
+---
 
-Desde la misma vista podrá acceder al **detalle completo del servicio**, que muestra:
+## Al hacer clic en **Ver tarifas**
+Se despliega la **lista de tarifas** (filas o tarjetas). Cada tarifa muestra:
+- **Nombre de la tarifa** 
+- **Precios detallados** (según proveedor): por pax / por noche / impuestos y gastos
+- **Total** 
 
-- Política de tarifas  
-- Incluidos y no incluidos  
-- Imágenes o galería (si aplica)  
-- Botón **Añadir al carrito**
+---
 
-⚙️ **Acción rápida:** al presionar el ícono 🛒 podrá añadir el servicio directamente al carrito.
+## Cómo elegir (3 pasos)
+1. Abrí **Ver tarifas** y revisá el **detalle**.
+2. Seleccioná la **tarifa** que quieras.
+3. **Añadir al carrito**.
 
-<!-- ![Detalle del servicio](../../static/img/reservas-online/general/detalle.png) -->
+<!-- ## Mensajes comunes
+- **No disponible al confirmar** → elegí otra opción o volvé a resultados.
+- **Moneda distinta a la esperada** → verificá el selector/configuración.
+- **Ocupación incompatible** → ajustá pasajeros/edades en la búsqueda. -->
+
+## Próximo paso
+Con la opción elegida, **añadí al carrito** y continuá en **[Carrito](../general/carrito-y-servicios.md)**.
+
+<!-- Imagen sugerida (cuando la tengas en /static/img/reservas-online/general/):
+![Ver tarifas y detalle](/img/reservas-online/general/ver-tarifas-detalle.png)
+-->

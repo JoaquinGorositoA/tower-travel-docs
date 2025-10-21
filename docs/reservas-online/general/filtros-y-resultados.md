@@ -4,40 +4,41 @@ title: Búsqueda y Resultados
 sidebar_label: Filtros y Resultados
 ---
 
-## 🔍 Filtros de búsqueda
+# Búsqueda y Resultados
 
-Al ingresar en **Reservas Online**, el sistema mostrará una pantalla inicial donde podrá aplicar diferentes filtros para encontrar los servicios deseados.  
-Los campos de búsqueda más comunes incluyen:
 
-- **Nombre del pasajero o reserva**  
-- **Destino o ciudad**  
-- **Fecha de ingreso y egreso**  
-- **Tipo de servicio (alojamiento, excursión, traslado, etc.)**  
-- **Estado de la reserva**
+**Objetivo:** revisar los resultados y abrir el detalle de la opción que necesites.
 
-Una vez completados los filtros, presione el botón **Buscar** para ejecutar la consulta o **Limpiar** para reiniciar los valores ingresados.
+## Campos de búsqueda (siempre presentes)
+- **Destino** (seleccionado de la lista)
+- **Fechas** (desde / hasta)
+- **Pasajeros / Huéspedes** (adultos y, si hay menores, sus edades)
 
-💡 **Tip:** utilizar combinaciones de fecha + destino mejora la precisión de los resultados.
+![Seleccionar solapa](/img/reservas-online/solapas.png)
+<!-- > Con estos tres campos alcanza para ejecutar la búsqueda. Otros campos pueden aparecer según el servicio, pero son opcionales. -->
 
-<!-- ![Pantalla de filtros](../../static/img/reservas-online/general/filtros.png) -->
+## Al hacer clic en “Buscar”
+Se muestra una **lista de resultados**. Cada tarjeta o fila, en general, incluye:
+- **Nombre** del producto
+- **Ubicación** / datos clave
+- **Precio “desde”** (si aplica)
+- Acciones: **Ver detalle** y, cuando corresponde, **Agregar al carrito**
 
----
+![Seleccionar solapa](/img/reservas-online/listado-hoteles.png)
 
-## 📋 Resultados de la búsqueda
+## Cómo avanzar
+1. Revisá los resultados.  
+2. Abrí **Ver detalle** para ver **tarifas y opciones**.  
+3. Desde el detalle, **agregá al carrito**.
 
-El sistema mostrará los resultados en una tabla dinámica con los principales datos de cada servicio:
+## Mensajes comunes
+- **Sin resultados:** “No se encontró resultado para los parámetros de búsqueda solicitados.”  
+  Probá cambiar fechas, destino o la cantidad de pasajeros.
 
-- Nombre  
-- Fecha de salida  
-- Tipo de servicio  
-- Destino  
-- Proveedor  
-- Precio  
-- Estado  
-- Disponibilidad  
+<!-- ## Opcional (si está disponible)
+- **Ordenar** (por precio, relevancia, etc.).  
+- **Paginación** al final de la lista. -->
 
-Cada fila incluye accesos rápidos para visualizar detalles o realizar acciones específicas.
-
-<!-- ![Resultados de búsqueda](../../static/img/reservas-online/general/resultados.png) -->
-
-💬 **Nota:** si no se obtienen resultados, revise que los filtros aplicados sean correctos o más amplios.
+<!-- Imagen sugerida (cuando la tengas):
+![Búsqueda y resultados](/img/reservas-online/general/busqueda-resultados.png)
+-->

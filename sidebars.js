@@ -25,10 +25,13 @@ const sidebars = {
           items: [
             "reservas-online/general/ingreso-modulo",  
             "reservas-online/general/seleccionar-cliente",  
-            "reservas-online/general/carrito-y-servicios",
-            "reservas-online/general/errores-y-validaciones",
+            "reservas-online/general/seleccionar-solapa",  
             "reservas-online/general/filtros-y-resultados",
             "reservas-online/general/ver-tarifas-y-detalle",
+            "reservas-online/general/carrito-y-servicios",
+            "reservas-online/general/errores-y-validaciones",
+            "reservas-online/general/menu-usuario",
+            
           ],
         },
 

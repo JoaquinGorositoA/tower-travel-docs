@@ -9,32 +9,35 @@ sidebar_label: Carrito y Servicios
 Cada vez que presione el botón **Añadir al carrito**, el sistema sumará el servicio seleccionado a la lista de compras.  
 Podrá repetir esta acción con diferentes productos antes de finalizar la operación.
 
-💡 **Tip:** revise siempre el tipo de habitación o tarifa antes de agregar, para evitar duplicaciones.
 
 <!-- ![Añadir al carrito](../../static/img/reservas-online/general/anadir-carrito.png) -->
 
 ---
 
-## 📦 Visualizar servicios agregados
+## 📦 Visualizar servicios tomados
 
-Haciendo clic en el ícono 🛍️ (carrito), podrá ver todos los servicios que ha agregado.  
+![Servicios tomados](/img/reservas-online/ir-a-carrito.png)
+
+Haciendo clic en el ícono 🛒 (carrito), podrá ver todos los servicios que ha agregado.  
 La pantalla mostrará una tabla con:
 
 - Descripción del servicio  
 - Fecha  
 - Precio individual  
 - Impuestos y totales  
-- Estado del servicio (confirmado, pendiente o cancelado)
 
 ---
 
 ## 🧾 Totales y confirmación
 
+
+![Ir a carrito](/img/reservas-online/total-de-servicios.png)
+
 En la parte inferior del carrito se encuentra el resumen total de los servicios agregados.  
 Desde allí podrá:
 
-- Editar o eliminar servicios  
-- Continuar agregando más  
-- Finalizar la reserva
+- Agregar servicio: vuelve a la búsqueda para sumar más ítems al carrito.  
+- Iniciar reserva: avanza a la carga de datos del pasajero (nominación) y finalización
+- Guardar cotización guarda el carrito como **cotización** en la seccion **Mis Cotizavciones** para retomar o enviar.
+- Vaciar el carrito: elimina **todos** los productos del carrito, se muestra un aviso antes de vaciar.
 
-⚙️ **Acción rápida:** utilice el botón **Ir al carrito** para revisar el resumen antes de confirmar.
