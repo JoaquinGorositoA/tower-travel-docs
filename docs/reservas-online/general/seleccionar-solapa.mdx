@@ -1,0 +1,188 @@
+---
+title: ¿Cómo selecciono un servicio?
+sidebar_label: ¿Cómo selecciono un servicio?
+---
+
+import Carrusel from '@site/src/components/Carrusel';
+
+# Seleccionar servicio
+**Objetivo:** recorrer todo el flujo de venta: **buscar** 🔎, **ver tarifas** 💳, **añadir al carrito** 🛒 y **finalizar** ✅.
+
+> 💡 Arriba a la izquierda tenés **[« Cambiar cliente »](./seleccionar-cliente.md)**.
+
+---
+
+## 🚀 Atajos
+Ir directo a:
+- [🔎 Búsqueda y resultados](#busqueda-y-resultados)
+- [💳 Ver tarifas y detalle](#ver-tarifas-detalle)
+- [🛒 Carrito](#carrito)
+- [🧾 Nominación y finalización](#nominacion-y-finalizacion)
+
+---
+
+## ✨ Servicios disponibles
+Accedé a lo específico de cada servicio (campos y notas propias):
+
+- 🏨 [Alojamiento](../alojamiento/alojamiento.md)
+- 🚐 [Traslados](../traslados/traslados.md)
+- 🌄 [Excursiones](../excursiones/excursiones.md)
+- 🩺 [Asistencias](../asistencias/asistencias.md)
+
+<!-- > Estos accesos **no** aparecen en el menú lateral: se navegan **desde acá**. -->
+
+---
+
+## 🔎 Búsqueda y resultados {#busqueda-y-resultados}
+1. **Completá** **Destino**, **Fechas** (desde / hasta) y **Pasajeros**.  
+   > En **Alojamiento** se usa **Huéspedes** (ocupación y edades si corresponde).
+2. **Seleccioná** **BUSCAR**.
+3. **Vas a ver** una lista con **nombre**, **ubicación/datos clave**, **precio “desde”** (si aplica) y el botón **VER TARIFAS**.
+
+
+
+<Carrusel imgs={[
+  '/img/reservas-online/solapas.png',
+  '/img/reservas-online/listado-hoteles2.png',
+  
+]} />
+
+---
+
+<!-- > 🧩 **Sin resultados:** “No se encontró resultado para los parámetros de búsqueda solicitados.”  
+> **Probá** con otras **fechas**, **destino** o **cantidad de pasajeros**. -->
+
+---
+
+## 💳 Ver tarifas y detalle {#ver-tarifas-detalle}
+En la opción elegida, **seleccioná** **VER TARIFAS**. Se despliega el detalle por tarifa con:
+- **Nombre** de la tarifa  
+- **Precios desglosados** y **Total**  
+- **Políticas** (cancelación / no show) y etiquetas como *A CONFIRMAR* o *Cancelación gratuita*
+
+![Ver tarifas y detalle](/img/reservas-online/detalle-tarifa.png)
+
+**Cómo seguir (3 pasos)**  
+1) **Revisá** condiciones y total.  
+2) **Elegí** la **tarifa**.  
+3) **Hacé clic** en **AÑADIR AL CARRITO**.
+
+---
+
+## 🛒 Carrito {#carrito}
+Espacio para **revisar** lo que agregaste y **decidir** si guardás o avanzás a la reserva.
+
+**Cómo entrar**
+- Modal **SERVICIOS TOMADOS** → **IR A CARRITO**.  
+  ![Ir a Carrito (modal)](/img/reservas-online/ir-a-carrito.png)
+- Ícono de **carrito** (arriba a la derecha), con contador de ítems.
+
+**Qué vas a ver**
+- **Líneas** por servicio (tipo, destino/fechas, pasajeros, política).  
+- Panel **TOTAL A PAGAR**: **Precio de venta**, **Impuestos**, **SubTotal**, **IVA**, **Gastos**, **Total**.  
+  ![Total de servicios](/img/reservas-online/total-de-servicios.png)
+- Resumen **Total servicios** con las mismas columnas.
+
+**Acciones**
+- Por línea: **ELIMINAR** (y, según configuración, **Editar** / **Duplicar**).  
+- Generales: **AGREGAR SERVICIO** · **VACIAR CARRITO** · **INICIAR RESERVA** · **GUARDAR COTIZACIÓN**.
+
+> ⚠️ **Atención:** **cambiar de cliente** puede vaciar el carrito según la configuración de la agencia.
+
+---
+
+## 🧾 Nominación y finalización {#nominacion-y-finalizacion}
+Entrás desde **INICIAR RESERVA**.
+
+### 1) Titular
+**Seleccioná** el **titular** en la grilla de nominaciones (radio).
+
+### 2) Datos obligatorios por pasajero
+**Completá**: **Tipo**, **Nombre**, **Apellido**, **Documento**, **Nacionalidad**.  
+(Otros campos pueden mostrarse según configuración.)
+
+### 3) Asignación de servicios
+- Columna **Acciones** → **Agregar servicios**.  
+- Se abre el modal **Seleccionar servicios para [Nombre]** (incluye **TILDAR TODOS**) → **CONFIRMAR**.  
+  <!-- ![Modal: seleccionar servicios](/img/reservas-online/general/nominacion-modal-seleccionar-servicios.png) -->
+- Al confirmar, **se actualiza** la columna **Servicios** y, debajo, **aparecen** los paneles por servicio con la asignación visible.  
+  <!-- ![Nominación: asignación por servicio](/img/reservas-online/general/nominacion-asignacion-por-servicio.png) -->
+- En **Acciones**, **Guardá** la fila para conservar los cambios (o **Cancelá** para descartarlos).
+
+### Botones al pie
+- **CANCELAR**  
+- **GUARDAR E IR AL CARRITO**  
+- **RESERVAR** (valida datos y disponibilidad; genera el localizador)
+
+### Validaciones comunes
+- Titular seleccionado.  
+- Datos obligatorios completos.  
+- Asignación coherente por pasajero.  
+- Documento válido / no duplicado.  
+- Edades/categorías acordes a cada servicio (si aplica).
+
+**Resultado**  
+- **RESERVAR** → la reserva queda disponible en **Mis Reservas**.  
+- **GUARDAR E IR AL CARRITO** → se conserva como **cotización** para retomar.
+
+
+<!-- ---
+title: ¿Cómo slecciono un servicio?
+description: Elegí el tipo de servicio y completá lo mínimo para buscar sin errores.
+sidebar_label: ¿Cómo slecciono un servicio?
+keywords: [reservas online, selección, alojamiento, paquetes, traslados, excursiones, guías, circuitos, aéreos, cupos y grupos aéreos, asistencia]
+---
+
+# Selección de servicio
+**Objetivo:** definir el **tipo de servicio** y cargar los **datos mínimos** para continuar a **Búsqueda y resultados**.
+
+![Seleccionar solapa](/img/reservas-online/solapas.png)
+
+## Pasos rápidos
+1) Seleccioná **el tipo de servicio**.  
+2) Completá los mínimos.  
+3) Hacé clic en **Buscar**.
+
+
+## Selección de tipo de servicio
+
+Luego de elegir el cliente, se accede al buscador principal, donde es posible seleccionar el tipo de servicio a cotizar o reservar:
+
+- 🏨 [**Alojamiento**](../alojamiento/alojamiento.md)
+- 🧳 **Paquetes**  
+- 🚐 **Traslados**  
+- 🌄 **Excursiones**  
+- 👮‍♂️ **Guías**
+- 🎟️ **Circuitos**
+- ✈️ **Aéreos**  
+- 🩺 **Asistencias**  
+
+<!-- > Si no aparece una pestaña que necesitás, pedí la **activación** al administrador. -->
+
+<!-- ## Cambiar cliente
+- **Ubicación:** arriba a la izquierda, botón [« Cambiar cliente »](../general/seleccionar-cliente.md).
+- **Qué hace:** te lleva al **selector de cliente** para elegir otro contacto/empresa.
+- **Importante:** según configuración de la agencia, al cambiar de cliente se pueden **limpiar** los datos de este paso y/o el **carrito**; si hay líneas cargadas, puede aparecer un **aviso de confirmación**. -->
+
+
+
+<!-- - **Sugerencia:** definilo **antes de buscar** para evitar inconsistencias. -->
+
+<!-- ## Para completarlo sin errores
+- Ingresá el **destino** y **seleccionalo de la lista** (autocompletar).
+- Usá **fechas futuras** y asegurá **salida > entrada**.
+- Si hay **menores**, las **edades** son obligatorias. -->
+<!-- - En **traslados**, indicá **hora válida** y **pax ≥ 1**. -->
+
+<!-- > Nota: si tu agencia limita por **ciudad del cliente**, verificá que esté **habilitada** si ves pocas opciones. -->
+
+<!-- ## Mensajes comunes
+- **Destino inválido** → seleccioná uno de la lista.
+- **Faltan edades** → completá las edades de los menores.
+- **Hora no válida (traslado)** → revisá el campo hora. -->
+<!-- 
+## Continuar
+Hacé clic en **Buscar** para pasar a **Búsqueda y resultados**.
+
+
+ -->
