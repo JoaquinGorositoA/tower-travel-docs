@@ -12,7 +12,10 @@ Cada usuario debe elegir una razón social válida antes de acceder al buscador 
 
 Al ingresar al módulo, el sistema muestra la siguiente pantalla:
 
-![Selección de cliente](/img/reservas-online/general/seleccion-de-cliente.png)
+<!-- ![Selección de cliente](/img/reservas-online/general/seleccion-de-cliente.png) -->
+![Selección de cliente](/img/reservas-online/seleccionar-cliente.gif)
+
+
 
 En este paso se debe escribir al menos **tres letras** del nombre o razón social del cliente.  
 También es posible ingresar el carácter **“...”** para visualizar todas las opciones disponibles.
@@ -25,7 +28,7 @@ El listado de clientes dependerá de los permisos del usuario y de la **unidad d
 
 Una vez ingresadas las primeras letras, el sistema despliega un listado con los clientes coincidentes:
 
-![Listado de clientes](/img/reservas-online/general/listado-de-clientes.png)
+<!-- ![Listado de clientes](/img/reservas-online/general/listado-de-clientes.png) -->
 
 Seleccionar el cliente deseado para continuar.
 
