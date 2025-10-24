@@ -2,7 +2,7 @@
 // @ts-check
 
 const config = {
-  title: 'Tower Travel',
+  title: 'Manual de usuario - Sistema BackOffice de Tower Travel', // ✅ actualizado
   tagline: '',
   favicon: 'img/logo.svg',
 
@@ -35,22 +35,20 @@ const config = {
   ],
 
   themeConfig: {
-    // ✅ Auto-colapsar categorías del sidebar
     docs: {
       sidebar: {
-        autoCollapseCategories: true,  // solo queda abierta la categoría activa
-        hideable: true,                // botón para ocultar/mostrar el sidebar
+        autoCollapseCategories: true,
+        hideable: true,
       },
     },
 
     navbar: {
-      title: 'Manual de uso Tower Travel',
+      title: 'Manual de usuario - Sistema BackOffice de Tower Travel', // ✅ ya estaba
       logo: {
         alt: 'Tower Travel',
         src: 'img/logo.svg',
       },
       items: [
-        // ✅ Linkea directamente al doc "intro"
         { type: 'doc', docId: 'intro', label: 'Manual', position: 'left' },
       ],
     },
