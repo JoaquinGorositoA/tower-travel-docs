@@ -15,7 +15,7 @@ Cada usuario contará con un **rol definido**, el cual determinará sus permisos
 Para comenzar, el usuario debe **iniciar sesión** con sus credenciales institucionales (correo y contraseña).  
 El sistema validará la información y permitirá el ingreso a la plataforma principal.
 
-![Acceso login](/img/reservas-online/login.png)
+<!-- ![Acceso login](/img/reservas-online/login.png) -->
 
 :::tip
 Si el usuario no recuerda su contraseña, puede utilizar la opción **“Olvidé mi contraseña”** disponible en la pantalla de ingreso.
@@ -23,12 +23,15 @@ Si el usuario no recuerda su contraseña, puede utilizar la opción **“Olvidé
 
 ---
 
+![Acceso al modulo y login](/img/reservas-online/inicio-de-sesion.gif)
+
+
 ## Selección del módulo
 
 Una vez iniciada la sesión, se mostrará el **panel principal del sistema**, que contiene todos los módulos disponibles.  
 Desde allí, el usuario debe dirigirse al módulo **Reservas Online**.
 
-![Acceso módulo](/img/reservas-online/modulos.png)
+<!-- ![Acceso módulo](/img/reservas-online/modulos.png) -->
 
 ---
 
