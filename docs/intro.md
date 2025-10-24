@@ -10,6 +10,20 @@ Este manual reúne los módulos funcionales de Tower Travel. Elegí un módulo p
 
 <div className="cardsGrid">
 
+  <!-- Producto -->
+  <a className="cardLink" href="./hoteles/intro">
+    <h3>Producto</h3>
+    <p>Gestión de catálogo: hoteles, asistencias, excursiones, etc.</p>
+    <ul>
+      <li><a href="./hoteles/intro">Hoteles</a></li>
+      <li><a href="./asistencias/intro">Asistencias</a></li>
+      <li><a href="./excursiones/excursiones-intro">Excursiones</a></li>
+      <li><a href="./traslados/traslados-intro">Traslados</a></li>
+      <li><a href="./paquetes/paquetes-intro">Paquetes</a></li>
+    </ul>
+  </a>
+
+
   <!-- Ventas - Reservas Online -->
   <a className="cardLink" href="./reservas-online/general/ingreso-modulo">
     <h3>Ventas — Reservas Online</h3>
@@ -24,18 +38,6 @@ Este manual reúne los módulos funcionales de Tower Travel. Elegí un módulo p
     </ul>
   </a>
 
-  <!-- Producto -->
-  <a className="cardLink" href="./hoteles/intro">
-    <h3>Producto</h3>
-    <p>Gestión de catálogo: hoteles, asistencias, excursiones, etc.</p>
-    <ul>
-      <li><a href="./hoteles/intro">Hoteles</a></li>
-      <li><a href="./asistencias/intro">Asistencias</a></li>
-      <li><a href="./excursiones/excursiones-intro">Excursiones</a></li>
-      <li><a href="./traslados/traslados-intro">Traslados</a></li>
-      <li><a href="./paquetes/paquetes-intro">Paquetes</a></li>
-    </ul>
-  </a>
 
   <!-- Operaciones -->
   <a className="cardLink" href="./operaciones/intro">
