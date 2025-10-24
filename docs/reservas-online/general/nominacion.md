@@ -73,7 +73,7 @@ Ahí vas a poder:
 - Revisar **Impositivo** (IVA, gastos, totales) y **Solicitar factura**  
 
 :::info
-👉 [Ir a “file”](./general/file)
+👉 [Ir a “file”](./file)
 :::
 <!--
 Sugerencias de imágenes (cargalas en /static/img/... y descomentá):
