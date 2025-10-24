@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Manual de Tower Travel
+title: Manual de usuario - Sistema BackOffice de Tower Travel
 sidebar_label: Introducción
 slug: /
 ---
@@ -8,89 +8,81 @@ slug: /
 ## Bienvenido/a
 Este manual reúne los módulos funcionales de Tower Travel. Elegí un módulo para empezar o usá el menú lateral.
 
-<!-- :::info Sugerencia
-Si una sección no se despliega, navegá primero a su **Introducción** desde estas tarjetas.
-::: -->
-
 <div className="cardsGrid">
 
-  <a className="cardLink" href="./reservas-online/intro">
-    <h3>Reservas Online</h3>
-    <p>Búsqueda y compra de servicios.</p>
+  <!-- Ventas - Reservas Online -->
+  <a className="cardLink" href="./reservas-online/general/ingreso-modulo">
+    <h3>Ventas — Reservas Online</h3>
+    <p>Flujo de venta completo: búsqueda, carrito, nominación y file.</p>
     <ul>
-      <li>General</li>
-      <li>Alojamiento</li>
-      <li>Traslados</li>
-      <li>Excursiones</li>
-      <li>Asistencias</li>
-      <li>Eventuales</li>
-      <li>Mis Reservas</li>
+      <li><a href="./reservas-online/general/ingreso-modulo">Ingreso al módulo</a></li>
+      <li><a href="./reservas-online/general/seleccionar-cliente">Seleccionar cliente</a></li>
+      <li><a href="./reservas-online/general/seleccionar-solapa">¿Cómo selecciono un servicio?</a></li>
+      <li><a href="./reservas-online/general/nominacion">Nominación y finalización</a></li>
+      <li><a href="./reservas-online/general/file">File (resumen de reserva)</a></li>
+      <li><a href="./reservas-online/general/menu-usuario">Menú de usuario</a></li>
     </ul>
   </a>
 
-  <a className="cardLink" href="./aereos/intro">
-    <h3>Aéreos</h3>
-    <p>Gestión de cupos, grupos e interface.</p>
-    <ul>
-      <li>Cupos y Grupos</li>
-      <li>Interface</li>
-      <li>Mis Reservas</li>
-      <li>Voideado / Desestimado</li>
-    </ul>
-  </a>
-
+  <!-- Producto -->
   <a className="cardLink" href="./hoteles/intro">
-    <h3>Hoteles</h3>
-    <p>Altas, contratos y tarifas.</p>
+    <h3>Producto</h3>
+    <p>Gestión de catálogo: hoteles, asistencias, excursiones, etc.</p>
     <ul>
-      <li>Crear hotel</li>
-      <li>Crear contrato</li>
-      <li>Agregar tarifa</li>
-      <li>Habitaciones</li>
-      <li>Contratos</li>
-      <li>Gestión de hoteles</li>
+      <li><a href="./hoteles/intro">Hoteles</a></li>
+      <li><a href="./asistencias/intro">Asistencias</a></li>
+      <li><a href="./excursiones/excursiones-intro">Excursiones</a></li>
+      <li><a href="./traslados/traslados-intro">Traslados</a></li>
+      <li><a href="./paquetes/paquetes-intro">Paquetes</a></li>
     </ul>
   </a>
 
-  <a className="cardLink" href="./asistencias/intro">
-    <h3>Asistencias</h3>
-    <p>Prestadores y planes.</p>
-    <ul>
-      <li>Buscar prestador</li>
-      <li>Acciones en el listado</li>
-      <li>Planes del prestador</li>
-      <li>Editar prestador</li>
-      <li>Crear / Editar / Eliminar plan</li>
-    </ul>
-  </a>
-
-  <a className="cardLink" href="./excursiones/excursiones-intro">
-    <h3>Excursiones</h3>
-    <p>Prestadores y excursiones.</p>
-    <ul>
-      <li>Acciones en el listado</li>
-      <li>Excursiones del prestador</li>
-      <li>Crear / Editar / Eliminar excursión</li>
-      <li>Agregar tarifa</li>
-      <li>Editar prestador</li>
-    </ul>
-  </a>
-
+  <!-- Operaciones -->
   <a className="cardLink" href="./operaciones/intro">
     <h3>Operaciones</h3>
-    <p>Gestión operativa y comunicación.</p>
+    <p>Confirmaciones con proveedor, vouchers y documentación.</p>
     <ul>
-      <li>Gestionar reservas</li>
-      <li>Enviar mails</li>
-      <li>Adjuntar documentos</li>
-      <li>Configurar operativos</li>
+      <li><a href="./operaciones/gestionar-reservas">Gestionar reservas</a></li>
+      <li><a href="./operaciones/enviar-mails">Enviar mails</a></li>
+      <li><a href="./operaciones/adjuntar-documentos">Adjuntar documentos</a></li>
+      <li><a href="./operaciones/configurar-operativos">Configurar operativos</a></li>
     </ul>
   </a>
+
+  <!-- Administración -->
+  <a className="cardLink" href="./administracion/medios-formas-pago">
+    <h3>Administración</h3>
+    <p>Configuración contable, tesorería y reportes.</p>
+    <ul>
+      <li><a href="./administracion/medios-formas-pago">Medios y formas de pago</a></li>
+      <li><a href="./administracion/reporte-tesoreria">Reporte Tesorería</a></li>
+      <li><a href="./administracion/cobranzas">Cobranzas</a></li>
+      <li><a href="./administracion/movimiento-de-fondos">Movimiento de fondos</a></li>
+      <li><a href="./administracion/cuentas-a-pagar">Cuentas a pagar</a></li>
+      <li><a href="./administracion/carga-facturas-terceros">Carga de facturas de terceros</a></li>
+      <li><a href="./administracion/contabilidad">Contabilidad</a></li>
+      <li><a href="./administracion/facturacion">Facturación</a></li>
+      <li><a href="./administracion/requerimiento-de-pago">Requerimiento de pago</a></li>
+      <li><a href="./administracion/reportes">Reportes</a></li>
+      <li><a href="./administracion/rrhh">RRHH</a></li>
+      <li><a href="./administracion/configuracion-general">Configuración general</a></li>
+    </ul>
+  </a>
+
+  <!-- Comercial -->
+  <!-- <div className="cardLink">
+    <h3>Comercial</h3>
+    <p>Próximamente.</p>
+    <ul>
+      <li>Sección en preparación</li>
+    </ul>
+  </div> -->
 
 </div>
 
-
-
-<!-- :::tip ¿No ves una categoría?
-Revisá el menú lateral o usá la búsqueda (atajo <kbd>Ctrl</kbd> + <kbd>K</kbd> / <kbd>⌘</kbd> + <kbd>K</kbd>).
-::: -->
+<!-- Tip de búsqueda -->
+<!--
+:::tip ¿No encontrás algo?
+Usá la búsqueda global (atajo <kbd>Ctrl</kbd> + <kbd>K</kbd> / <kbd>⌘</kbd> + <kbd>K</kbd>).
+:::
+-->

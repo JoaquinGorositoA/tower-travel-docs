@@ -13,16 +13,14 @@ const sidebars = {
     {
       type: "category",
       label: "Comercial",
-      link: { type: "generated-index", title: "Comercial" }, // índice generado
+      link: { type: "generated-index", title: "Comercial" },
       collapsible: true,
       collapsed: true,
-      items: [
-        // Dejá vacío por ahora o agregá docs cuando los tengas
-      ],
+      items: [],
     },
 
     // =========================
-    // Productos
+    // Producto
     // =========================
     {
       type: "category",
@@ -106,7 +104,7 @@ const sidebars = {
     },
 
     // =========================
-    // Reservas Online - Ventas
+    // Ventas - Reservas Online
     // =========================
     {
       type: "category",
@@ -123,7 +121,6 @@ const sidebars = {
           items: [
             "reservas-online/general/ingreso-modulo",
             "reservas-online/general/seleccionar-cliente",
-            // Página unificada (antes: seleccionar-solapa)
             "reservas-online/general/seleccionar-solapa",
             "reservas-online/general/nominacion",
             "reservas-online/general/file",
@@ -146,6 +143,49 @@ const sidebars = {
           ],
         },
 
+        // 🛫 Aéreos (movido acá)
+        {
+          type: "category",
+          label: "Aéreos",
+          link: { type: "doc", id: "aereos/intro" },
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              type: "category",
+              label: "Cupos y Grupos",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                "aereos/cupos-y-grupos/busqueda-resultados",
+                "aereos/cupos-y-grupos/acciones-y-edicion",
+                "aereos/cupos-y-grupos/crear-cupo",
+              ],
+            },
+            {
+              type: "category",
+              label: "Interface",
+              collapsible: true,
+              collapsed: true,
+              items: ["aereos/interface/interface"],
+            },
+            {
+              type: "category",
+              label: "Mis Reservas",
+              collapsible: true,
+              collapsed: true,
+              items: ["aereos/mis-reservas/mis-reservas"],
+            },
+            {
+              type: "category",
+              label: "Voideado / Desestimado",
+              collapsible: true,
+              collapsed: true,
+              items: ["aereos/voideado-desestimado/voideado-desestimado"],
+            },
+          ],
+        },
+
         // (Si más adelante reactivás Eventuales o Mis Reservas, agregalos acá)
       ],
     },
@@ -164,51 +204,6 @@ const sidebars = {
         "operaciones/enviar-mails",
         "operaciones/adjuntar-documentos",
         "operaciones/configurar-operativos",
-      ],
-    },
-
-    // =========================
-    // Aéreos
-    // =========================
-    {
-      type: "category",
-      label: "Aéreos",
-      link: { type: "doc", id: "aereos/intro" },
-      collapsible: true,
-      collapsed: true,
-      items: [
-        {
-          type: "category",
-          label: "Cupos y Grupos",
-          collapsible: true,
-          collapsed: true,
-          items: [
-            "aereos/cupos-y-grupos/busqueda-resultados",
-            "aereos/cupos-y-grupos/acciones-y-edicion",
-            "aereos/cupos-y-grupos/crear-cupo",
-          ],
-        },
-        {
-          type: "category",
-          label: "Interface",
-          collapsible: true,
-          collapsed: true,
-          items: ["aereos/interface/interface"],
-        },
-        {
-          type: "category",
-          label: "Mis Reservas",
-          collapsible: true,
-          collapsed: true,
-          items: ["aereos/mis-reservas/mis-reservas"],
-        },
-        {
-          type: "category",
-          label: "Voideado / Desestimado",
-          collapsible: true,
-          collapsed: true,
-          items: ["aereos/voideado-desestimado/voideado-desestimado"],
-        },
       ],
     },
 
