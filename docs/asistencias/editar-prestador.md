@@ -53,7 +53,7 @@ Los campos principales son:
 
 ### 🔗 Enlaces relacionados
 
-- [Listado de prestadores](./listado-prestadores)  
+<!-- - [Listado de prestadores](./listado-prestadores)   -->
 - [Planes del prestador](./planes-del-prestador)
 
 ---
