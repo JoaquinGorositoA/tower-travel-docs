@@ -1,82 +1,85 @@
 ---
 id: gestionar-reservas
-title: Gestionar reservas
-sidebar_label: Gestionar reservas
+title: ¿Cómo gestiono mis reservas?
+sidebar_label: ¿Cómo gestiono mis reservas?
 ---
 
-## Búsqueda de reservas
+# 🧭 ¿Cómo gestiono mis reservas?
 
-Dentro de **Operaciones**, el usuario puede filtrar las reservas utilizando los siguientes campos:
-
-- **Número de reserva / File**
-- **Estado** (Confirmada, Pendiente, Cancelada)
-- **Fecha de salida**
-- **Cliente / Agencia**
-- **Operador**
-- **Destino / Servicio**
-
-Presionar **Buscar** para aplicar filtros o **Limpiar** para reiniciar la búsqueda.
-
-<!-- ![Búsqueda de reservas](/img/operaciones/gestionar/busqueda.png) -->
+Desde el módulo **Operaciones**, la opción **Gestionar reservas** te permite **buscar, revisar y actualizar el estado operativo de los files** creados en el área de Ventas.  
+Aquí podrás consultar los servicios asociados, verificar saldos y asignar responsables operativos.
 
 ---
 
-## Resultados
+## 🔍 ¿Cómo buscar un file?
 
-El sistema mostrará un listado con las reservas coincidentes.  
-Cada registro presenta columnas con información clave:
-
-- Código de reserva  
-- Cliente  
-- Fecha de salida  
-- Producto / Servicio  
-- Estado actual  
-- Operador asignado  
-- Fecha de modificación
+Ingresá a **Operaciones → Gestionar reservas**.  
+En el buscador superior, escribí el **número de file** o parte del **nombre del cliente**.  
+Luego presioná **Buscar**, y el sistema mostrará los **files encontrados**.
 
 ---
 
-## Acciones disponibles
+## 📋 ¿Qué muestra el resultado de la búsqueda?
 
-En la columna **Acciones**, se encuentran los íconos de:
+Al realizar una búsqueda, el sistema devuelve una **lista de files encontrados**, cada uno representado por una **fila principal (azul)** que contiene la información general de la reserva.
 
-- ✏️ **Editar** — abre el detalle del file para modificar datos.  
-- 🔁 **Cambiar operador** — reasigna la reserva a otro responsable.  
-- 📨 **Enviar correo** — permite generar mails automáticos.  
-- 📄 **Voucher** — genera el documento correspondiente.  
-- 📎 **Adjuntar archivo** — permite cargar documentación adicional.
+### 🔹 Información del file (fila azul)
 
-> Las acciones disponibles dependen del estado de la reserva y del rol del usuario.
+Cada encabezado azul corresponde a un **file** o **reserva** e incluye los siguientes datos:
 
----
+- **Cliente:** nombre comercial o agencia.  
+- **Reserva:** número de file (por ejemplo, `CT-317`).  
+- **Status:** estado actual de la reserva (por ejemplo, *FPC*).  
+- **Fecha de alta:** fecha de creación de la reserva.  
+- **Neto:** monto total sin impuestos o comisiones.  
+- **Cobro:** monto cobrado hasta el momento.  
+- **Saldo:** diferencia pendiente (se muestra en rojo si está impaga).  
+- **Vendedor:** usuario que generó la reserva.  
+- **Operativo:** menú desplegable para asignar un responsable operativo.  
+- **Checkbox:**  
+  - **Controlado:** marca la reserva como verificada.  
+  - **Inconsistente:** señala que hay información pendiente o errores.  
 
-## Cambio de operador
-
-Seleccionar 🔁 **Cambiar operador** abre una ventana emergente donde se debe indicar el nuevo operador.  
-Al confirmar, el sistema mostrará:
-
-> “El operador fue actualizado con éxito.”
-
----
-
-## Edición de servicios
-
-Dentro del detalle de una reserva, se pueden editar los datos operativos de cada servicio:
-
-- Fecha y hora  
-- Proveedor  
-- Estado  
-- Observaciones  
-- Pasajeros vinculados
-
-Al guardar los cambios, el sistema notificará:
-
-> “El registro fue actualizado con éxito.”
+Acciones disponibles desde esta fila:
+- **Enviar mail**  
+- **Ver documentos adjuntos**
 
 ---
 
-## Confirmaciones del sistema
+## 🔽 Al desplegar el file
 
-- ✅ *Reserva actualizada con éxito*  
-- ⚠️ *Debe completar los campos obligatorios*  
-- 🗑️ *El registro fue eliminado con éxito*
+Al expandir la fila azul, se muestra el **detalle de los servicios asociados a esa reserva**, con la siguiente información:
+
+| SERVICIO | DESCRIPCIÓN DEL SERVICIO | TITULAR | FECHA IN/OUT | ACCIONES |
+|-----------|---------------------------|----------|---------------|-----------|
+| Tipo de servicio (HOT, EXC, TRN) | Nombre del servicio, prestador y proveedor | Nombre del pasajero | Fechas de ingreso y salida | ✏️ Editar / 📎 Adjuntar |
+
+> Desde este listado se gestionan todos los servicios operativos vinculados al file, como alojamiento, excursiones o traslados.
+
+<!-- ![Resultados en Gestionar reservas](/img/operaciones/resultados-gestionar-reservas.png) -->
+
+---
+
+## ⚙️ ¿Qué acciones puedo realizar?
+
+- **Asignar operativo:** seleccioná un usuario responsable desde el menú desplegable.  
+- **Marcar como controlado:** si la reserva fue verificada.  
+- **Marcar como inconsistente:** si presenta errores o diferencias.  
+- **Enviar mail:** permite enviar comunicación directamente al cliente o proveedor.  
+- **Ver documentos adjuntos:** abre los archivos asociados al file.  
+- **Editar servicios:** ingresar a un servicio puntual y modificar sus datos.  
+- **Adjuntar archivos:** subir documentación específica del servicio (por ejemplo, vouchers o comprobantes).
+
+---
+
+## 🧾 Observaciones
+
+- Los totales en rojo indican **saldo pendiente**.  
+- Los archivos adjuntos se cargan por servicio, no por file completo.  
+- Los cambios en estado (controlado/inconsistente) son **visibles para todos los usuarios con rol operativo**.  
+
+---
+
+:::tip
+💡 Este módulo permite tener un seguimiento completo del estado de cada reserva: desde la creación del file en ventas hasta su control operativo final.
+:::

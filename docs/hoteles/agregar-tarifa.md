@@ -1,35 +1,76 @@
 ---
-title: Agregar tarifa
-sidebar_label: Agregar tarifa
+id: agregar-tarifa
+title: ¿Cómo agrego una tarifa a un contrato de hotel?
+sidebar_label: ¿Cómo agrego una tarifa a un contrato de hotel?
 ---
 
-## Acceso
-Desde **Contratos → Ver tarifas**, el usuario puede **agregar las tarifas** necesarias al contrato completando los campos requeridos.
+# 💰 ¿Cómo agrego una tarifa a un contrato de hotel?
+
+Una vez creado el contrato, podés agregar todas las **tarifas** necesarias para definir los precios y condiciones de venta del hotel.  
+Para hacerlo, ingresá a **Contratos → Ver tarifas** y hacé clic en **Agregar tarifa**.  
+Se abrirá el formulario de carga, donde deberás completar los campos requeridos.
 
 ![Crear tarifa](/img/producto/hoteles/crear-tarifa.png)
 
-## Ingreso de datos
-**Nombre:** completar con el nombre de la tarifa. Puede darse de alta en **tres idiomas** (Español, Inglés y Portugués).  
-**Días:** seleccionar el/los días en que la tarifa será válida.  
-**Moneda:** elegir la moneda en la que se expresa la tarifa.
+---
 
-## Condiciones de aplicación
-**Tipo de tarifa:** seleccionar si se aplica **por persona** o **por habitación**.  
-**Disponibilidad:** seleccionar la opción correspondiente.  
-**Régimen:** elegir desde el desplegable.
+## 🧾 Ingreso de datos
 
-## Promoción (opcional)
-**Código promocional:** escribir el código de promoción (permite letras y números, **máximo 20 caracteres**).  
-**Fecha para vencimiento del pago:** elegir la fecha de vencimiento del pago.  
-**Observaciones:** escribir la información que aplique (solo letras, **máximo 300 caracteres**).
+- **Nombre:** completá con el nombre de la tarifa.  
+  Puede cargarse en **tres idiomas** (Español, Inglés y Portugués).  
+- **Días:** seleccioná uno o varios días en los que la tarifa será válida.  
+- **Moneda:** elegí la moneda en la que se expresará la tarifa.
 
-## Políticas de vencimiento
-Completar los campos:  
-**Días después de la reserva** y **Días antes del check-in** (permiten **solo números**, **máximo 10**).
+---
 
-## Tarifa por habitación (opcional)
-El usuario puede **agregar una tarifa a una habitación creada anteriormente** haciendo clic en **Agregar tarifa habitación**.  
-Luego seleccionar la **habitación** (se abre una ventana de selección) y completar los datos.
+## ⚙️ Condiciones de aplicación
 
-## Confirmación
-Para guardar la nueva tarifa, hacer clic en **Crear**. El sistema muestra el mensaje de confirmación correspondiente.
+- **Tipo de tarifa:** indicá si se aplica **por persona** o **por habitación**.  
+- **Disponibilidad:** seleccioná la opción correspondiente según el estado del servicio.  
+- **Régimen:** elegí el régimen aplicable desde el menú desplegable (por ejemplo, *solo alojamiento*, *media pensión*, etc.).
+
+---
+
+## 🏷️ Promoción (opcional)
+
+Podés agregar información de promoción si corresponde:
+
+- **Código promocional:** texto alfanumérico, máximo **20 caracteres**.  
+- **Fecha de vencimiento del pago:** seleccioná la fecha límite.  
+- **Observaciones:** campo de texto libre, máximo **300 caracteres**.
+
+---
+
+## ⏱️ Políticas de vencimiento
+
+Definí las reglas de tiempo para el pago de la reserva:
+
+- **Días después de la reserva**  
+- **Días antes del check-in**  
+
+> Ambos campos permiten solo números, con un máximo de **10 caracteres**.
+
+---
+
+## 🛏️ Tarifa por habitación (opcional)
+
+También podés asignar tarifas específicas por tipo de habitación:  
+
+1. Hacé clic en **Agregar tarifa habitación**.  
+2. Seleccioná la **habitación** en la ventana emergente.  
+3. Completá los datos de la tarifa correspondiente.
+
+---
+
+## 💾 Guardar y confirmar
+
+Una vez que completaste todos los campos, hacé clic en **Crear** para guardar la tarifa.  
+El sistema mostrará el mensaje de confirmación:
+
+> ✅ *“La tarifa fue creada con éxito.”*
+
+---
+
+:::tip
+💡 Podés cargar múltiples tarifas por contrato, adaptándolas a temporadas, ocupación o promociones especiales.
+:::
