@@ -1,7 +1,7 @@
 ---
 id: enviar-mails
-title: Enviar mails
-sidebar_label: Enviar mails
+title: ¿Cómo envio mails?
+sidebar_label: ¿Cómo envio mails?
 ---
 
 ## Envío de correos

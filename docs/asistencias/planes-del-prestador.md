@@ -4,43 +4,63 @@ title: Planes del prestador
 sidebar_label: Planes del prestador
 ---
 
-## Acceso
+# 🧳 Planes del prestador
 
-Desde el **listado de prestadores**, abrir el **menú ≡** de la fila para ingresar al **detalle del prestador**.  
-En esta pantalla se muestra el **listado de planes** asociados al prestador seleccionado.
+Cada prestador puede tener uno o varios **planes de asistencia** asociados.  
+Desde esta vista vas a poder **consultar, crear y administrar los planes** disponibles para cada proveedor, de forma rápida y centralizada.
 
+---
+
+### 🚪 ¿Cómo acceder?
+
+Desde el **listado de prestadores**, hacé clic en el **menú ≡** de la fila correspondiente y elegí la opción **Ir al detalle**.  
+Esto te llevará a la pantalla del **detalle del prestador**, donde se muestra el listado completo de **planes asociados**.
 
 ![Planes del prestador](/img/producto/planes.png)
 
+> 💡 Esta vista te permite concentrar toda la información de un mismo prestador sin tener que volver al menú principal.
 
-## Vista general
+---
 
-La tabla de **planes** incluye, entre otros, los siguientes elementos:
+### 👀 Vista general
 
-- **Nombre** del plan.  
-- **Proveedor**.  
-- **Vigencia** (desde / hasta).  
-- **Hab/Inhab**: control para habilitar o inhabilitar el plan.  
-- **Acciones** por plan.
+En esta tabla vas a encontrar todos los **planes cargados para el prestador seleccionado**, junto con sus principales datos:
 
-Controles disponibles:
+- **Nombre del plan**  
+- **Proveedor**  
+- **Vigencia** (desde / hasta)  
+- **Hab / Inhab:** control para habilitar o inhabilitar el plan  
+- **Acciones** disponibles por cada plan  
 
-- **Buscar por nombre**.  
-- **Ordenar**.  
-- **Mostrar**: cantidad de registros por página.  
-- **Crear plan**: inicia la creación de un nuevo plan asociado al prestador actual.
+Además, la vista incluye varias herramientas que te ayudan a trabajar de forma más ágil:
 
-## Acciones por plan
+- **Buscar por nombre** para localizar planes específicos.  
+- **Ordenar** las columnas según tus preferencias.  
+- **Mostrar** una cantidad personalizada de registros por página.  
+- **Crear plan**, para agregar un nuevo plan de asistencia directamente desde esta pantalla.
 
-En la columna **Acciones** se encuentran los iconos para administrar cada registro:
+---
 
-- **Editar**: abre el formulario del plan para modificar la información.  
-- **Clonar**: genera un nuevo plan a partir del seleccionado y abre el formulario en modo creación para su revisión y guardado.  
-- **Eliminar**: solicita confirmación antes de eliminar el plan.
+### ⚙️ Acciones por plan
 
-## Enlaces relacionados
+En la columna **Acciones** vas a encontrar los íconos que te permiten **administrar cada plan individualmente**:
+
+- ✏️ **Editar:** abre el formulario del plan para actualizar su información.  
+- 🧩 **Clonar:** genera un nuevo plan tomando como base el seleccionado y abre el formulario en modo creación para revisarlo y guardarlo.  
+- 🗑️ **Eliminar:** solicita confirmación antes de borrar el plan del sistema. 
+:::warning
+⚠️ Al eliminar un plan con tarifas vigentes, el sistema mostrará el mensaje:  
+**“Existen tarifas vigentes, si eliminas el plan, las tarifas dejarán de estar vigentes.”**
+::: 
+
+> 💡 La opción *Clonar* es ideal cuando necesitás crear un plan similar al existente, pero con pequeñas variaciones (por ejemplo, fechas o precios).
+
+---
+
+### 🔗 Enlaces relacionados
 
 - [Crear plan](./crear-plan)  
 - [Editar plan](./editar-plan)  
-- [Eliminar plan](./eliminar-plan)  
-- [Acciones en el listado](./acciones-listado)
+
+
+---

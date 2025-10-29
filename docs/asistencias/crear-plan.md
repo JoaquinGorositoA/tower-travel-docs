@@ -1,58 +1,110 @@
 ---
 id: crear-plan
-title: Crear plan
-sidebar_label: Crear plan
+title: "¿Cómo creo un nuevo plan de asistencia?"
+sidebar_label: "¿Cómo creo un nuevo plan de asistencia?"
 ---
 
+# 🟩 ¿Cómo creo un nuevo plan de asistencia?
 
-Desde el **listado de prestadores**, hacer clic en el ícono de **las tres Rayas (≡)**; se abrirá una pestaña que permitirá hacer clic en **Crear Plan**.  
-Al hacer clic en **Crear Plan**, se abrirá un formulario con campos donde se deberá ingresar la información del nuevo plan.
+Cuando necesitás agregar un nuevo plan de asistencia al viajero, podés hacerlo directamente desde el **detalle del prestador**.  
+El sistema te guía paso a paso para completar todos los datos necesarios, desde la información general hasta las tarifas y políticas.
+
+---
+
+### 🚪 ¿Cómo acceder?
+
+Desde el **listado de prestadores**, hacé clic en el ícono de **las tres rayas (≡)** y seleccioná la opción **Crear plan**.  
+Al hacerlo, se abrirá el formulario de creación con todas las solapas que debés completar.
 
 ![Planes del prestador](/img/producto/crear-plan.png)
 
-### 🟩 Datos generales
-- **Nombre:** Campo donde se podrá escribir el nombre del nuevo plan que se va a crear, de uso obligatorio y permite solo letras con un máximo de 50 caracteres.  
-- **Proveedor:** Campo donde se podrá buscar el nombre del Proveedor, escribiendo las 3 primeras letras o escribiendo tres puntos (...) el sistema mostrará un listado de todos los proveedores, es de uso obligatorio y un campo desplegable.  
-- **Moneda:** Campo donde podrá escribir las tres (3) primeras letras y se visualizará un listado del tipo de moneda a utilizar, o escribiendo tres puntos (...) se despliega un listado de los diez (10) primeros registros, de uso obligatorio.  
-- **Etiqueta de Negocio:** Campo donde podrá seleccionar cuál es la etiqueta de negocio a utilizar, de uso obligatorio. **Incoming:** etiqueta de negocio que se usa solo para turismo dentro de Argentina. **Partners:** etiqueta de negocio que se usa para turismo fuera de Argentina.
+---
 
-### 🟩 Descripción y políticas de cancelación
-**Solapa Descripción**  
-- **Lenguaje:** Es una lista desplegable donde se podrá elegir el idioma en el que se quiere crear el plan.  
-- **Descripción:** Es cuadro de texto donde se podrá escribir una breve descripción de lo que contiene el plan.  
-- **Acciones:** Haciendo clic en el icono del tachito se podrá eliminar la información ya cargada.  
-Campos desplegables, de uso obligatorio que permiten letras y números con un máximo de 300 caracteres.
+### 🧾 Datos generales
 
-**Solapa Políticas de cancelación**  
-- **Lenguaje:** Es una lista desplegable donde se podrá elegir el idioma en el que se quiere crear el plan.  
-- **Descripción:** Es cuadro de texto donde se podrá escribir una breve descripción de lo que tiene.  
-- **Acciones:** Haciendo clic en el icono del tachito se podrá eliminar la información ya cargada.  
-Campos desplegables, de uso obligatorio que permiten letras y números con un máximo de 300 caracteres.
+Completá la información básica del plan:
 
-### 🟩 Ventanas de venta y de viaje
-- **Tiene BW?:** Campo donde se podrá seleccionar con un **sí** o **no** la fecha en la que se puede vender la asistencia; al seleccionar la opción **sí**, podrá elegir las fechas **bw(desde)** y **bw(hasta)**; al seleccionar la opción **no**, se inhabilitan los campos de fecha **bw(desde)** y **bw(hasta)**, y quedan solo habilitadas las fechas **tw(desde)** y **tw(hasta)**; es un campo de uso obligatorio.  
-- **TW (Travel Windows):** Campo donde se podrá seleccionar la fecha en la que se presta el servicio, de uso obligatorio.
+- **Nombre:** escribí el nombre del nuevo plan (solo letras, máx. 50 caracteres).  
+- **Proveedor:** buscá el nombre del proveedor escribiendo las primeras tres letras o “...”.  
+- **Moneda:** ingresá las tres primeras letras para ver el listado de monedas o escribí “...” para ver las diez primeras opciones.  
+- **Etiqueta de negocio:** elegí entre **Incoming** (turismo dentro de Argentina) o **Partners** (turismo fuera de Argentina).  
+  _Todos estos campos son obligatorios._
 
-### 🟩 Alcance y tarifas
-- **Disponibilidad. Tarifa Aplicable A. Tarifa:** Selecciones para disponibilidad; si aplica a **todos / residentes / no residentes**; y si la tarifa es **individual / grupal**.  
-- **Región/es que incluye:** Campo donde podrá escribir las tres (3) primeras letras y se visualizará la/s región/es que se desea incluir o, al escribir tres puntos (...), se desplegará un listado con los diez (10) primeros registros; es un campo desplegable y de uso obligatorio.  
-- **Región/es que excluye:** Mismo comportamiento que el campo anterior; campo desplegable y de uso obligatorio.  
-- **País/es que incluye** / **País/es que excluye:** Campo donde podrá escribir las tres (3) primeras letras y se visualizará el/los país/es o, al escribir tres puntos (...), se desplegará un listado con los diez (10) primeros registros; campos desplegables y de uso obligatorio.
+---
 
-### 🟩 Tarifa promocional
-- **Tarifa Promocional:** Campo donde podrá seleccionar con un **sí** o **no** si la asistencia tiene tarifa promocional; al seleccionar **sí** se habilitan los campos **Código promocional**, **Fecha para vencimiento del pago** y **Observaciones**; al seleccionar **no**, se inhabilitan dichos campos.  
-- **Código Promocional:** Campo donde se podrá escribir el código de promoción para la asistencia, permite letras y números y un máximo de veinte (20) caracteres.  
-- **Fecha para vencimiento del pago:** Campo donde se elije la fecha que vencerá el pago realizado.  
-- **Observaciones:** Campo donde se escribe cualquier información que haga referencia a la asistencia, permite solo letras y un máximo de 300 caracteres.
+### 💬 Descripción y políticas de cancelación
 
-### 🟩 Políticas de vencimiento y rangos de edades
-- **Políticas de Vencimiento — Días después de la reserva / Días antes del check-in:** Campos que permiten solo números, con un máximo de 10 caracteres.  
-- **Rangos de edades — Rango de Edad / Tarifa Costo / Hab/Inhab / Acciones:** Definir rangos; cargar tarifas por rango; el botón **Hab/Inhab** permite habilitar o inhabilitar el rango, mostrando un mensaje de confirmación; en **Acciones** se permite **Editar**, **actualizar** y **guardar** la información de la asistencia.
+#### 📄 Solapa “Descripción”
+- **Lenguaje:** elegí el idioma en el que querés crear el plan.  
+- **Descripción:** escribí una breve descripción del plan (máx. 300 caracteres).  
+- **Acciones:** podés eliminar la información cargada con el ícono del tachito 🗑️.  
 
-### 🟩 Guardar y confirmar
-Luego de completar todos los campos que se encuentran en las solapas (**Nombre – Proveedor – Descripción – Políticas de Cancelación – Tarifa – Políticas de Vencimiento – Rangos de edades**), podrá hacer clic en **Crear** para crear el plan, y el sistema mostrará un mensaje de confirmación asegurando que el **Registro fue creado con Éxito**.
+#### ⚖️ Solapa “Políticas de cancelación”
+- **Lenguaje:** elegí el idioma.  
+- **Descripción:** escribí las políticas correspondientes (máx. 300 caracteres).  
+- **Acciones:** eliminá la información cargada con el tachito 🗑️.  
 
-<!-- Capturas opcionales:
-![Datos Generales](/img/asistencias/crear-plan-datos.png)
-![Crear Plan](/img/asistencias/crear-plan.png)
--->
+> 💡 Ambas solapas son obligatorias. Te recomendamos mantener la información clara y actualizada para evitar errores de carga.
+
+---
+
+### 📅 Ventanas de venta y de viaje
+
+- **¿Tiene BW?**: seleccioná **Sí** o **No** según corresponda.  
+  - Si elegís **Sí**, se habilitan los campos **bw(desde)** y **bw(hasta)**.  
+  - Si elegís **No**, solo podrás cargar las fechas **tw(desde)** y **tw(hasta)**.  
+- **TW (Travel Windows):** seleccioná las fechas en las que se presta el servicio.
+
+> 🗓️ Estas fechas determinan cuándo puede venderse y utilizarse el plan.
+
+---
+
+### 🌍 Alcance y tarifas
+
+- **Disponibilidad / Tarifa aplicable a / Tarifa:** definí si aplica a todos, residentes o no residentes; y si la tarifa es individual o grupal.  
+- **Región/es que incluye:** escribí tres letras o “...” para seleccionar una región.  
+- **Región/es que excluye:** mismo funcionamiento que el campo anterior.  
+- **País/es que incluye / excluye:** buscá y seleccioná los países que corresponden.  
+
+> 🔎 Todos estos campos son desplegables y de uso obligatorio.
+
+---
+
+### 💸 Tarifa promocional
+
+- **Tarifa promocional:** seleccioná **Sí** si el plan tiene una promoción activa.  
+  - Al hacerlo, se habilitan los campos **Código promocional**, **Fecha de vencimiento** y **Observaciones**.  
+- **Código promocional:** ingresá el código (máx. 20 caracteres).  
+- **Fecha de vencimiento del pago:** elegí la fecha límite.  
+- **Observaciones:** agregá comentarios o aclaraciones (máx. 300 caracteres).
+
+---
+
+### 👶 Políticas de vencimiento y rangos de edades
+
+#### 📆 Políticas de vencimiento
+- Campos **“Días después de la reserva”** y **“Días antes del check-in”**: aceptan solo números (máx. 10 caracteres).  
+
+#### 👥 Rangos de edades
+- Definí los **rangos de edad**, las **tarifas por rango** y el estado (**Hab/Inhab**).  
+- En **Acciones**, podés **editar, actualizar o guardar** cada registro.  
+  El sistema solicita confirmación al habilitar o inhabilitar un rango.
+
+---
+
+### 💾 Guardar y confirmar
+
+Una vez completados todos los campos de las solapas (**Datos generales, Descripción, Políticas, Tarifas y Rangos**), hacé clic en **Crear**.  
+El sistema mostrará un mensaje de confirmación indicando que el **registro fue creado con éxito** ✅.
+
+> 💡 Antes de guardar, revisá que todos los campos obligatorios estén completos y sin errores de validación.
+
+---
+
+### 🔗 Enlaces relacionados
+
+- [Planes del prestador](./planes-del-prestador)  
+- [Editar plan](./editar-plan)  
+- [Eliminar plan](./eliminar-plan)
+
+---

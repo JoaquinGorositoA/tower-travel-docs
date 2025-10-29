@@ -1,19 +1,41 @@
 ---
-title: Crear contrato
-sidebar_label: Crear contrato
+id: crear-contrato
+title: ¿Cómo creo un contrato de hotel?
+sidebar_label: ¿Cómo creo un contrato de hotel?
 ---
 
-## Acceso
-Desde el detalle del hotel, seleccionar **Crear contrato**.
+# 📄 ¿Cómo creo un contrato de hotel?
 
-## Campos del contrato
-- **Nombre** *(obligatorio)*  
-- **Proveedor** *(obligatorio)*  
-- **Tipo de contrato**: **Base** u **Oferta**  
-- **Etiqueta de negocio**: **Incoming** / **Partners**  
-- **Archivos**: adjuntar **PDF** *(tamaño máximo 2 MB)*
+Una vez que el hotel fue creado, podés registrar sus contratos asociados desde el detalle del hotel.  
+Hacé clic en el botón **Crear contrato** para abrir el formulario correspondiente y comenzar a completar la información.
 
-Acciones: **Cancelar** / **Guardar**.  
-Mensaje esperado: **“Registro fue creado con éxito.”**
+---
 
-![Crear/Editar contrato](/img/producto/hoteles/crear-contrato.png)
+## 🧾 Campos del contrato
+
+Completá los siguientes datos:
+
+- **Nombre** *(obligatorio)*: identificá el contrato de manera clara (por ejemplo, *Contrato temporada alta 2025*).  
+- **Proveedor** *(obligatorio)*: seleccioná el proveedor asociado al contrato.  
+- **Tipo de contrato:** elegí entre **Base** u **Oferta**, según corresponda.  
+- **Etiqueta de negocio:** definí si aplica a **Incoming** (turismo dentro de Argentina) o **Partners** (fuera de Argentina).  
+- **Archivos:** adjuntá documentos en formato **PDF**, con un tamaño máximo de **2 MB** por archivo.  
+
+![Crear contrato](/img/producto/hoteles/crear-contrato.png)
+
+---
+
+## 💾 Acciones disponibles
+
+- **Cancelar:** descarta los cambios y vuelve al detalle del hotel.  
+- **Guardar:** guarda la información del contrato creado.  
+
+Al guardar, el sistema mostrará el mensaje de confirmación:
+
+> ✅ *“Registro fue creado con éxito.”*
+
+---
+
+:::tip
+💡 Luego de crear el contrato, podés continuar con la carga de **tarifas** o **habitaciones** asociadas desde las solapas del mismo formulario.
+:::

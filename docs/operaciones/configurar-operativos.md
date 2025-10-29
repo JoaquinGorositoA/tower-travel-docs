@@ -1,45 +1,46 @@
 ---
 id: configurar-operativos
-title: Configurar operativos
-sidebar_label: Configurar operativos
+title: ¿Cómo configuro los operativos?
+sidebar_label: ¿Cómo configuro los operativos?
 ---
 
-## Configurar operativos
+# ⚙️ ¿Cómo configuro los operativos?
 
-El acceso a los operativos varía según el tipo de usuario:
-
-- **Operativos Partners:** orientado a la gestión de reservas de agencias o empresas asociadas.
-- **Operativos Incoming:** destinado al control interno de servicios receptivos.
-
-Desde esta pantalla se pueden visualizar todos los files asignados, con filtros específicos por estado, operador y destino.
-
-<!-- ![Operativos](/img/operaciones/configuracion/operativos.png) -->
-
-### Filtros disponibles
-- Operador  
-- Estado (Pendiente, Confirmado, Cancelado)  
-- Destino  
-- Fecha de salida  
-- Agencia  
-
-Presionar **Buscar** para aplicar filtros.
+El módulo **Configurar Operativos** te permite definir y administrar los responsables asignados a cada **área de operación** (por ejemplo: Collection, Sport, Bodas, Rugby World Cup, etc.).  
+Desde esta sección vas a poder **agregar, habilitar o eliminar** operativos de forma rápida, manteniendo actualizada la estructura del equipo.
 
 ---
 
-### Acciones en operativos
+### 🌐 Acceso al módulo
 
-- ✏️ **Editar file**  
-- 📩 **Enviar correo**  
-- 📎 **Adjuntar documento**  
-- 📄 **Generar voucher**  
-- 🔄 **Cambiar estado**
-
-> El sistema actualizará automáticamente la información entre las vistas de Partners e Incoming, garantizando la sincronización operativa.
+Para acceder, dirigite al menú lateral y elegí la opción **Operaciones → Configurar operativos**.  
+Al hacerlo, vas a ingresar en la **pantalla principal de gestión diaria**, donde se listan todas las áreas y sus responsables actuales.
 
 ---
 
-### Mensajes del sistema
+### ⚙️ ¿Qué puedo configurar?
 
-- ✅ *Cambios guardados correctamente*  
-- ⚠️ *Debe completar los campos obligatorios*  
-- 📨 *Correo enviado con éxito*
+En la pantalla se muestran diferentes **áreas o categorías operativas**, cada una con su propio listado de responsables asignados.
+
+Para **agregar un nuevo operativo**, hacé clic en el botón **“+ Agregar operativos”** dentro del área correspondiente.  
+Se abrirá un campo de texto donde podés **escribir el nombre del responsable** que deseás agregar.
+
+Una vez completado el nombre, disponés de dos opciones:
+
+- ✅ **Guardar:** confirma y agrega el nuevo operativo.  
+- ❌ **Cancelar:** descarta la acción y cierra el campo.  
+
+
+Después de guardar, el **nombre** aparece junto a dos botones:
+
+- **Hab/Inhab:** permite **activar o desactivar** al operativo.  
+- 🗑️ **Tachito:** elimina definitivamente el registro.
+
+---
+
+### 🧩 Resultado final
+
+Cada área mantiene su propio grupo de responsables activos.  
+Desde esta pantalla podés **mantener actualizados los equipos operativos**, sumando o removiendo personas según los eventos, temporadas o proyectos vigentes.
+
+<!-- ![Configurar operativos — Ejemplo de pantalla](/img/operaciones/configurar-operativos.png) -->
