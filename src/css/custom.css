@@ -88,3 +88,41 @@ article img {
 .theme-doc-sidebar-item-category.sidebar-hidden {
   display: none !important;
 }
+
+
+
+.video-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-caption {
+  font-style: italic;
+  color: var(--ifm-color-gray-600);
+  margin-top: 0.5rem;
+}
+
+.gif-container img {
+  width: 100%;
+  max-width: 800px;      /* o el ancho que quieras */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  display: block;
+  margin: 1.5rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}

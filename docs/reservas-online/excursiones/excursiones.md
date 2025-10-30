@@ -40,3 +40,12 @@ Continuar en **[Carrito](../general/carrito-y-servicios.md)** para revisar total
 - **Sin cupo / turno no disponible** → elegir otro horario o fecha.
 - **Edad mínima no cumplida** → revisar requisitos de la excursión.
 - **Proveedor sin disponibilidad** → intentar otra opción o fecha.
+
+
+<div class="video-container">
+  <video controls>
+    <source src="/tower-travel-docs/videos/excursiones/flujo-exc-ro.mp4" type="video/mp4" />
+    Tu navegador no soporta video HTML5.
+  </video>
+  <!-- <p class="video-caption">🎥 Descripción breve del video</p> -->
+</div>
