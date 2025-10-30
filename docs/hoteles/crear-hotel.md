@@ -71,10 +71,18 @@ Las acciones disponibles por fila dependen de la configuración del hotel.
 - **Guardar:** guarda los datos ingresados.  
 - **Guardar y crear contrato:** guarda el hotel y abre automáticamente el formulario para crear un nuevo contrato asociado.
 
-![Crear hotel](/img/producto/hoteles/crear-hotel.png)
-
----
+<!-- ![Crear hotel](/img/producto/hoteles/crear-hotel.png) -->
 
 :::tip
 💡 Podés continuar directamente con la creación del contrato del hotel usando el botón **Guardar y crear contrato**.
 :::
+
+---
+
+<div class="video-container">
+<video controls width="100%">
+  <source src="/tower-travel-docs/videos/hoteles/crear-hotel.mp4" type="video/mp4" />
+</video>
+</div>
+
+

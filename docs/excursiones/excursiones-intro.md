@@ -18,6 +18,13 @@ Desde este espacio podés mantener actualizado el catálogo completo de excursio
 Para acceder, dirigite al menú principal y seleccioná Producto → Excursiones.
 Desde allí vas a ingresar al listado de prestadores, donde podés habilitarlos, editarlos o acceder a las excursiones que ofrece cada uno.
 
+
+<div class="video-container">
+<video controls width="100%">
+  <source src="/tower-travel-docs/videos/excursiones/exc-ingreso.mp4" type="video/mp4" />
+</video>
+</div>
+
 <!-- :::info
 💡 También podés usar el acceso directo desde el menú lateral si ya estás dentro de la sección **Producto**.
 ::: -->
@@ -42,4 +49,6 @@ Las acciones disponibles pueden variar según los **permisos asignados** a tu us
 
 El módulo se abre mostrando el **listado de prestadores**, desde donde podés habilitar nuevos, acceder a sus excursiones y realizar las acciones principales.
 
-![Listado de prestadores — Excursiones](/img/producto/excursiones/listado-de-prestadores.svg)
+<!-- ![Listado de prestadores — Excursiones](/img/producto/excursiones/listado-de-prestadores.svg) -->
+
+

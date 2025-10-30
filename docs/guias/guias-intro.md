@@ -20,6 +20,12 @@ En pantalla se mostrará el listado de guías disponibles, junto con las accione
 💡 El módulo se encuentra dentro del menú **Producto**, junto a Excursiones y Traslados.
 ::: -->
 
+<div class="video-container">
+<video controls width="100%">
+  <source src="/tower-travel-docs/videos/guias/guias-ingreso.mp4" type="video/mp4" />
+</video>
+</div>
+
 ---
 
 ## 🧾 ¿Qué podés hacer en esta sección?

@@ -15,7 +15,9 @@ const sidebars = {
       link: { type: "generated-index", title: "Comercial" },
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: [
+        { type: "doc", id: "comercial-intro", label: "¿Qué puedo hacer como Comercial?" },
+      ],
     },
 
     // =========================
@@ -37,16 +39,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            {
-              type: "doc",
-              id: "asistencias/intro",
-              label: "¿Qué puedo hacer en Asistencias?",
-            },
-            {
-              type: "doc",
-              id: "asistencias/buscar-prestador",
-              label: "¿Cómo gestiono mis prestadores?",
-            },
+            { type: "doc", id: "asistencias/intro", label: "¿Qué puedo hacer en Asistencias?" },
+            { type: "doc", id: "asistencias/buscar-prestador", label: "¿Cómo gestiono mis prestadores?" },
             {
               type: "category",
               label: "Acciones internas (oculto)",
@@ -54,26 +48,10 @@ const sidebars = {
               collapsible: true,
               collapsed: true,
               items: [
-                {
-                  type: "doc",
-                  id: "asistencias/planes-del-prestador",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "asistencias/editar-prestador",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "asistencias/crear-plan",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "asistencias/editar-plan",
-                  className: "sidebar-hidden",
-                },
+                { type: "doc", id: "asistencias/planes-del-prestador", className: "sidebar-hidden" },
+                { type: "doc", id: "asistencias/editar-prestador", className: "sidebar-hidden" },
+                { type: "doc", id: "asistencias/crear-plan", className: "sidebar-hidden" },
+                { type: "doc", id: "asistencias/editar-plan", className: "sidebar-hidden" },
               ],
             },
           ],
@@ -88,16 +66,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            {
-              type: "doc",
-              id: "excursiones/excursiones-intro",
-              label: "¿Qué puedo hacer en Excursiones?",
-            },
-            {
-              type: "doc",
-              id: "excursiones/excursiones-acciones-listado",
-              label: "¿Cómo gestiono mis excursiones?",
-            },
+            { type: "doc", id: "excursiones/excursiones-intro", label: "¿Qué puedo hacer en Excursiones?" },
+            { type: "doc", id: "excursiones/excursiones-acciones-listado", label: "¿Cómo gestiono mis excursiones?" },
             {
               type: "category",
               label: "Acciones internas (oculto)",
@@ -105,41 +75,13 @@ const sidebars = {
               collapsible: true,
               collapsed: true,
               items: [
-                {
-                  type: "doc",
-                  id: "excursiones/habilitar-prestador",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "excursiones/excursiones-del-prestador",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "excursiones/crear-excursion",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "excursiones/editar-excursion",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "excursiones/eliminar-excursion",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "excursiones/excursiones-agregar-tarifa",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "excursiones/excursiones-editar-prestador",
-                  className: "sidebar-hidden",
-                },
+                { type: "doc", id: "excursiones/habilitar-prestador", className: "sidebar-hidden" },
+                { type: "doc", id: "excursiones/excursiones-del-prestador", className: "sidebar-hidden" },
+                { type: "doc", id: "excursiones/crear-excursion", className: "sidebar-hidden" },
+                { type: "doc", id: "excursiones/editar-excursion", className: "sidebar-hidden" },
+                { type: "doc", id: "excursiones/eliminar-excursion", className: "sidebar-hidden" },
+                { type: "doc", id: "excursiones/excursiones-agregar-tarifa", className: "sidebar-hidden" },
+                { type: "doc", id: "excursiones/excursiones-editar-prestador", className: "sidebar-hidden" },
               ],
             },
           ],
@@ -154,16 +96,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            {
-              type: "doc",
-              id: "guias/guias-intro",
-              label: "¿Qué puedo hacer en Guías?",
-            },
-            {
-              type: "doc",
-              id: "guias/guias-acciones-listado",
-              label: "¿Cómo gestiono mis guías?",
-            },
+            { type: "doc", id: "guias/guias-intro", label: "¿Qué puedo hacer en Guías?" },
+            { type: "doc", id: "guias/guias-acciones-listado", label: "¿Cómo gestiono mis guías?" },
             {
               type: "category",
               label: "Acciones internas (oculto)",
@@ -171,26 +105,10 @@ const sidebars = {
               collapsible: true,
               collapsed: true,
               items: [
-                {
-                  type: "doc",
-                  id: "guias/guias-crear",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "guias/guias-agregar-tarifa",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "guias/guias-editar",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "guias/guias-eliminar",
-                  className: "sidebar-hidden",
-                },
+                { type: "doc", id: "guias/guias-crear", className: "sidebar-hidden" },
+                { type: "doc", id: "guias/guias-agregar-tarifa", className: "sidebar-hidden" },
+                { type: "doc", id: "guias/guias-editar", className: "sidebar-hidden" },
+                { type: "doc", id: "guias/guias-eliminar", className: "sidebar-hidden" },
               ],
             },
           ],
@@ -205,16 +123,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            {
-              type: "doc",
-              id: "hoteles/intro",
-              label: "¿Qué puedo hacer en Hoteles?",
-            },
-            {
-              type: "doc",
-              id: "hoteles/gestion-hoteles",
-              label: "¿Cómo gestiono los hoteles?",
-            },
+            { type: "doc", id: "hoteles/intro", label: "¿Qué puedo hacer en Hoteles?" },
+            { type: "doc", id: "hoteles/gestion-hoteles", label: "¿Cómo gestiono los hoteles?" },
             {
               type: "category",
               label: "Acciones internas (oculto)",
@@ -222,31 +132,11 @@ const sidebars = {
               collapsible: true,
               collapsed: true,
               items: [
-                {
-                  type: "doc",
-                  id: "hoteles/crear-hotel",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "hoteles/habitaciones",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "hoteles/crear-contrato",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "hoteles/contratos",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "hoteles/agregar-tarifa",
-                  className: "sidebar-hidden",
-                },
+                { type: "doc", id: "hoteles/crear-hotel", className: "sidebar-hidden" },
+                { type: "doc", id: "hoteles/habitaciones", className: "sidebar-hidden" },
+                { type: "doc", id: "hoteles/crear-contrato", className: "sidebar-hidden" },
+                { type: "doc", id: "hoteles/contratos", className: "sidebar-hidden" },
+                { type: "doc", id: "hoteles/agregar-tarifa", className: "sidebar-hidden" },
               ],
             },
           ],
@@ -261,16 +151,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           items: [
-            {
-              type: "doc",
-              id: "traslados/traslados-intro",
-              label: "¿Qué puedo hacer en Traslados?",
-            },
-            {
-              type: "doc",
-              id: "traslados/traslados-acciones-listado",
-              label: "¿Cómo gestiono mis traslados?",
-            },
+            { type: "doc", id: "traslados/traslados-intro", label: "¿Qué puedo hacer en Traslados?" },
+            { type: "doc", id: "traslados/traslados-acciones-listado", label: "¿Cómo gestiono mis traslados?" },
             {
               type: "category",
               label: "Acciones internas (oculto)",
@@ -278,26 +160,10 @@ const sidebars = {
               collapsible: true,
               collapsed: true,
               items: [
-                {
-                  type: "doc",
-                  id: "traslados/traslados-crear",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "traslados/traslados-agregar-tarifa",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "traslados/traslados-editar",
-                  className: "sidebar-hidden",
-                },
-                {
-                  type: "doc",
-                  id: "traslados/traslados-eliminar",
-                  className: "sidebar-hidden",
-                },
+                { type: "doc", id: "traslados/traslados-crear", className: "sidebar-hidden" },
+                { type: "doc", id: "traslados/traslados-agregar-tarifa", className: "sidebar-hidden" },
+                { type: "doc", id: "traslados/traslados-editar", className: "sidebar-hidden" },
+                { type: "doc", id: "traslados/traslados-eliminar", className: "sidebar-hidden" },
               ],
             },
           ],
@@ -307,37 +173,28 @@ const sidebars = {
         // Paquetes
         // -------------------------
         {
-  type: "category",
-  label: "Paquetes",
-  collapsible: true,
-  collapsed: true,
-  items: [
-    {
-      type: "doc",
-      id: "paquetes/paquetes-intro",
-      label: "¿Qué puedo hacer en Paquetes?",
-    },
-    {
-      type: "doc",
-      id: "paquetes/paquetes-acciones-listado",
-      label: "¿Cómo gestiono mis paquetes?",
-    },
-    {
-      type: "category",
-      label: "Acciones internas (oculto)",
-      className: "sidebar-hidden",
-      collapsible: true,
-      collapsed: true,
-      items: [
-        { type: "doc", id: "paquetes/paquetes-crear-configuracion", className: "sidebar-hidden" },
-        { type: "doc", id: "paquetes/paquetes-crear-paquete", className: "sidebar-hidden" },
-        { type: "doc", id: "paquetes/paquetes-editar", className: "sidebar-hidden" },
-        { type: "doc", id: "paquetes/paquetes-eliminar", className: "sidebar-hidden" },
-      ],
-    },
-  ],
-},
-
+          type: "category",
+          label: "Paquetes",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            { type: "doc", id: "paquetes/paquetes-intro", label: "¿Qué puedo hacer en Paquetes?" },
+            { type: "doc", id: "paquetes/paquetes-acciones-listado", label: "¿Cómo gestiono mis paquetes?" },
+            {
+              type: "category",
+              label: "Acciones internas (oculto)",
+              className: "sidebar-hidden",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                { type: "doc", id: "paquetes/paquetes-crear-configuracion", className: "sidebar-hidden" },
+                { type: "doc", id: "paquetes/paquetes-crear-paquete", className: "sidebar-hidden" },
+                { type: "doc", id: "paquetes/paquetes-editar", className: "sidebar-hidden" },
+                { type: "doc", id: "paquetes/paquetes-eliminar", className: "sidebar-hidden" },
+              ],
+            },
+          ],
+        },
       ],
     },
 
@@ -364,10 +221,6 @@ const sidebars = {
             "reservas-online/general/menu-usuario",
           ],
         },
-
-        // -------------------------
-        // Aéreos
-        // -------------------------
         {
           type: "category",
           label: "Aéreos",
@@ -409,6 +262,13 @@ const sidebars = {
             },
           ],
         },
+        // -------------------------
+        // Páginas ocultas: Alojamiento / Traslados / Excursiones / Asistencias
+        // -------------------------
+        { type: "doc", id: "reservas-online/alojamiento/alojamiento", className: "sidebar-hidden" },
+        { type: "doc", id: "reservas-online/traslados/traslados", className: "sidebar-hidden" },
+        { type: "doc", id: "reservas-online/excursiones/excursiones", className: "sidebar-hidden" },
+        { type: "doc", id: "reservas-online/asistencias/asistencias", className: "sidebar-hidden" },
       ],
     },
 
@@ -424,7 +284,7 @@ const sidebars = {
         "operaciones/intro",
         "operaciones/gestionar-reservas",
         "operaciones/enviar-mails",
-        // "operaciones/adjuntar-documentos",
+        "operaciones/adjuntar-documentos",
         "operaciones/configurar-operativos",
       ],
     },
