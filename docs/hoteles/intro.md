@@ -18,6 +18,13 @@ Al hacerlo, vas a ingresar al **listado general de hoteles**, donde podés ver c
 
 <!-- ![Listado de hoteles](/img/producto/hoteles/listado-hoteles.png) -->
 <!-- cambiar img -->
+
+<div class="video-container">
+<video controls width="100%">
+  <source src="/tower-travel-docs/videos/hoteles/acceso-hoteles.mp4" type="video/mp4" />
+</video>
+</div>
+
 ---
 
 ## 🧾 ¿Qué podés hacer en esta sección?

@@ -1,7 +1,7 @@
 ---
 id: enviar-mails
-title: ¿Cómo envio mails?
-sidebar_label: ¿Cómo envio mails?
+title: ¿Cómo notifico al proveedor?
+sidebar_label: ¿Cómo notifico al proveedor?
 ---
 
 ## Envío de correos
