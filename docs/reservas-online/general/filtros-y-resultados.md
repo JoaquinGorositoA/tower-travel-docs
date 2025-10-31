@@ -4,41 +4,53 @@ title: Búsqueda y Resultados
 sidebar_label: Filtros y Resultados
 ---
 
-# Búsqueda y Resultados
+# 🔎 Búsqueda y Resultados
 
+En este paso vas a ver cómo usar los filtros principales y entender los resultados de tu búsqueda.  
+Desde acá podés abrir el detalle de cada opción y continuar con el flujo de reserva.
 
-**Objetivo:** revisar los resultados y abrir el detalle de la opción que necesites.
+---
 
-## Campos de búsqueda (siempre presentes)
-- **Destino** (seleccionado de la lista)
-- **Fechas** (desde / hasta)
-- **Pasajeros / Huéspedes** (adultos y, si hay menores, sus edades)
+## 🧭 Campos de búsqueda
+
+Los tres campos principales están siempre visibles:
+
+- **Destino:** seleccioná desde la lista desplegable.  
+- **Fechas:** indicá el período de estadía o servicio (desde / hasta).  
+- **Pasajeros / Huéspedes:** cantidad de adultos y menores (con edades si corresponde).  
+
+Con solo completar esos datos podés ejecutar la búsqueda.  
+Otros campos pueden aparecer según el tipo de servicio, pero son opcionales.
 
 ![Seleccionar solapa](/img/reservas-online/solapas.png)
-<!-- > Con estos tres campos alcanza para ejecutar la búsqueda. Otros campos pueden aparecer según el servicio, pero son opcionales. -->
 
-## Al hacer clic en “Buscar”
-Se muestra una **lista de resultados**. Cada tarjeta o fila, en general, incluye:
-- **Nombre** del producto
-- **Ubicación** / datos clave
-- **Precio “desde”** (si aplica)
-- Acciones: **Ver detalle** y, cuando corresponde, **Agregar al carrito**
+---
 
-![Seleccionar solapa](/img/reservas-online/listado-hoteles.png)
+## 🧾 Resultados
 
-## Cómo avanzar
-1. Revisar los resultados.  
-2. Abrir **Ver detalle** para ver **tarifas y opciones**.  
-3. Desde el detalle, **agregar al carrito**.
+Al hacer clic en **BUSCAR**, se muestra una lista con todas las opciones disponibles.  
+Cada tarjeta o fila incluye la información principal:
 
-## Mensajes comunes
-- **Sin resultados:** “No se encontró resultado para los parámetros de búsqueda solicitados.”  
-  Probá cambiar fechas, destino o la cantidad de pasajeros.
+- 🏷️ **Nombre del producto**  
+- 📍 **Ubicación o datos clave**  
+- 💰 **Precio “desde”** (si aplica)  
+- ⚙️ Acciones: **Ver detalle** o **Agregar al carrito**, según el servicio.  
 
-<!-- ## Opcional (si está disponible)
-- **Ordenar** (por precio, relevancia, etc.).  
-- **Paginación** al final de la lista. -->
+![Listado de hoteles](/img/reservas-online/listado-hoteles.png)
 
-<!-- Imagen sugerida (cuando la tengas):
-![Búsqueda y resultados](/img/reservas-online/general/busqueda-resultados.png)
--->
+---
+
+## 🚀 Cómo avanzar
+
+1. Revisá los resultados que aparecieron.  
+2. Hacé clic en **Ver detalle** para abrir las **tarifas y opciones disponibles**.  
+3. Desde esa vista, agregá la tarifa seleccionada al **carrito**.
+
+
+<!-- 💡 Si no encontrás lo que buscás, probá ajustar las fechas, el destino o la cantidad de pasajeros.
+
+---
+
+:::tip
+💡 En algunos servicios vas a encontrar funciones extra, como **ordenar resultados** o **paginación** al final del listado.
+::: -->

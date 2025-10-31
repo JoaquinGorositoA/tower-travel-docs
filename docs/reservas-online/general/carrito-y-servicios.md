@@ -1,43 +1,63 @@
 ---
 id: carrito-y-servicios
-title: Carrito y Servicios
-sidebar_label: Carrito y Servicios
+title: Carrito y servicios
+sidebar_label: Carrito y servicios
 ---
 
-## 🛒 Añadir al carrito
+# 🛒 Carrito y servicios
 
-Cada vez que presione el botón **Añadir al carrito**, el sistema sumará el servicio seleccionado a la lista de compras.  
-Podrá repetir esta acción con diferentes productos antes de finalizar la operación.
+El **carrito** es el espacio donde revisás todos los servicios que agregaste antes de confirmar una reserva.  
+Desde acá podés **modificar**, **eliminar**, **vaciar** o avanzar hacia la **nominación**.
 
-
-<!-- ![Añadir al carrito](../../static/img/reservas-online/general/anadir-carrito.png) -->
-
----
-
-## 📦 Visualizar servicios tomados
-
-![Servicios tomados](/img/reservas-online/ir-a-carrito.png)
-
-Haciendo clic en el ícono 🛒 (carrito), podrá ver todos los servicios que ha agregado.  
-La pantalla mostrará una tabla con:
-
-- Descripción del servicio  
-- Fecha  
-- Precio individual  
-- Impuestos y totales  
+> 💡 Si agregás más de un servicio (por ejemplo, alojamiento + traslado), todos aparecen acá para gestionarlos juntos.
 
 ---
 
-## 🧾 Totales y confirmación
+## 📍 Cómo acceder
 
+Podés ingresar al carrito de dos formas:
 
-![Ir a carrito](/img/reservas-online/total-de-servicios.png)
+- Desde la ventana emergente **“Servicios tomados”** → botón **IR A CARRITO**  
+- Desde el ícono de carrito 🛒 (arriba a la derecha), que muestra el contador de ítems.
 
-En la parte inferior del carrito se encuentra el resumen total de los servicios agregados.  
-Desde allí podrá:
+![Ir a Carrito (modal)](/img/reservas-online/ir-a-carrito.png)
 
-- Agregar servicio: vuelve a la búsqueda para sumar más ítems al carrito.  
-- Iniciar reserva: avanza a la carga de datos del pasajero (nominación) y finalización
-- Guardar cotización guarda el carrito como **cotización** en la seccion **Mis Cotizavciones** para retomar o enviar.
-- Vaciar el carrito: elimina **todos** los productos del carrito, se muestra un aviso antes de vaciar.
+---
 
+## 🧾 Qué vas a ver en el carrito
+
+Cada servicio aparece en forma de tarjeta o fila, con la siguiente información:
+
+- Tipo de servicio (alojamiento, excursión, traslado, etc.)  
+- Destino  
+- Fechas  
+- Pasajeros asignados  
+- Precio total  
+
+Al pie se muestra el **Total general a pagar**, con desglose de **precio**, **impuestos**, **IVA** y **gastos administrativos**.
+
+![Total de servicios](/img/reservas-online/total-de-servicios.png)
+
+---
+
+## ⚙️ Acciones disponibles
+
+- **🗑️ Eliminar:** borra un servicio del carrito.  
+- **➕ Agregar servicio:** vuelve a la búsqueda para sumar otro.  
+- **🚮 Vaciar carrito:** elimina todos los servicios cargados (pide confirmación).  
+- **💾 Guardar cotización:** guarda el estado actual como cotización.  
+- **➡️ Iniciar reserva / Nominar:** avanza al paso de nominación para confirmar la reserva.
+
+---
+
+## ⚠️ Consideraciones
+
+- Si cambiás de cliente, el carrito puede vaciarse automáticamente según la configuración de la agencia.  
+- El sistema validará disponibilidad y precios actualizados al iniciar la reserva.
+
+---
+
+## 🔗 Próximo paso
+
+Una vez revisado todo, hacé clic en **Iniciar reserva** para pasar al paso siguiente:  
+👉 [**Nominación y Finalización**](./nominacion.md)
