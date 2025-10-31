@@ -372,19 +372,32 @@ const sidebars = {
       collapsed: true,
       items: [
         {
-          type: "category",
-          label: "General",
-          collapsible: true,
-          collapsed: true,
-          items: [
-            "reservas-online/general/ingreso-modulo",
-            "reservas-online/general/seleccionar-cliente",
-            "reservas-online/general/seleccionar-solapa",
-            "reservas-online/general/nominacion",
-            "reservas-online/general/file",
-            "reservas-online/general/menu-usuario",
-          ],
-        },
+  type: "category",
+  label: "General",
+  collapsible: true,
+  collapsed: true,
+  items: [
+    "reservas-online/general/ingreso-modulo",
+    "reservas-online/general/seleccionar-cliente",
+    "reservas-online/general/seleccionar-solapa",
+    "reservas-online/general/nominacion",
+    "reservas-online/general/file",
+    "reservas-online/general/menu-usuario",
+    {
+      type: "category",
+      label: "Páginas internas (oculto)",
+      className: "sidebar-hidden",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        { type: "doc", id: "reservas-online/general/filtros-y-resultados", className: "sidebar-hidden" },
+        { type: "doc", id: "reservas-online/general/ver-tarifas-y-detalle", className: "sidebar-hidden" },
+        { type: "doc", id: "reservas-online/general/carrito-y-servicios", className: "sidebar-hidden" },
+      ],
+    },
+  ],
+},
+
         {
           type: "category",
           label: "Aéreos",
