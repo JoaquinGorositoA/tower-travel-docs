@@ -477,7 +477,7 @@ const sidebars = {
         "operaciones/intro",
         "operaciones/gestionar-reservas",
         "operaciones/enviar-mails",
-        "operaciones/adjuntar-documentos",
+        // "operaciones/adjuntar-documentos",
         "operaciones/configurar-operativos",
       ],
     },
