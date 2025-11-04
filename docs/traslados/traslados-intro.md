@@ -4,7 +4,6 @@ title: ¿Qué puedo hacer en Traslados?
 sidebar_label: ¿Qué puedo hacer en Traslados?
 ---
 
-import Carrusel from '@site/src/components/Carrusel';
 
 # 🚐 Traslados — Introducción
 
@@ -18,10 +17,12 @@ Desde aquí podés mantener actualizado el catálogo con información de **prest
 Para ingresar, dirigite al menú principal y seleccioná **Producto → Traslados**.  
 Al hacerlo, vas a ver un **listado general de prestadores** con sus traslados asociados, su estado (activo o inactivo) y las acciones disponibles para gestionarlos.
 
-<!-- <Carrusel imgs={[
-  '/img/producto/traslados/listado-prestadores.png',
-  '/img/producto/traslados/listado-traslados.png',
-]} /> -->
+
+<div class="video-container">
+  <video controls width="100%">
+    <source src="/tower-travel-docs/videos/traslados/ingreso-traslados.mp4" type="video/mp4" />
+  </video>
+</div>
 
 ---
 

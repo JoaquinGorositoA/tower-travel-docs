@@ -18,9 +18,11 @@ Desde este espacio, vas a poder mantener actualizado el catálogo de paquetes di
 Para acceder, dirigite al menú principal y seleccioná **Producto → Paquetes**.  
 Al ingresar, vas a ver un **listado general de paquetes**, con información básica como el nombre, el tipo de paquete, la fecha de vigencia y su estado (**Habilitado / Inhabilitado**).
 
-:::info
-💡 También podés usar el acceso rápido desde el menú lateral si ya estás dentro de la sección **Producto**.
-:::
+<div class="video-container">
+  <video controls width="100%">
+    <source src="/tower-travel-docs/videos/paquetes/ingreso-paquetes.mp4" type="video/mp4" />
+  </video>
+</div>
 
 <!-- ![Listado de paquetes](/img/producto/paquetes/listado-paquetes.png) -->
 

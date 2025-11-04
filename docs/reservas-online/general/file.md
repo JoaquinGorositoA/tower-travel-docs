@@ -6,11 +6,11 @@ sidebar_label: File
 
 # 📂 File
 
-El **File** es el expediente donde gestionás todo después de confirmar una reserva.  
-Desde acá podés marcar **Listo para operar**, ver el **Itinerario**, enviar o descargar **documentación**, revisar la parte **Impositiva** y, si corresponde, **Solicitar factura**.  
+El **File** es la reserva ya confirmada, donde podés hacer el seguimiento completo del viaje.  
+Desde acá gestionás todo: marcar **Listo para operar**, revisar el **Itinerario**, enviar o descargar **documentación**, controlar la parte **Impositiva** y, si corresponde, **Solicitar factura**.
 
 > 🧭 **Cómo llegás:**  
-> - Directo desde **Nominación → Reservar** (se abre automáticamente el File).  
+> - Directo desde **Nominación → Reservar** (el sistema abre automáticamente el File).  
 > - O desde **Menú de usuario → Mis Reservas**.
 
 ---
@@ -32,12 +32,10 @@ Marcá **Listo para operar** cuando la reserva ya está completa y lista para ge
 
 ## 🧾 Encabezado del File {#encabezado}
 
-En la parte superior vas a encontrar toda la información clave:  
-**Número de File**, **Estado**, **Cliente**, **Vendedor cliente**, **Titular**, **Pasajeros**, **Moneda**, **Código externo**, **Vencimiento de seña**, y un link **“Mostrar más”** con los datos ampliados.
-
-<!-- <p align="center">
-  <img src="/img/reservas-online/mis-reservas/file-detalle.png" alt="Encabezado del File" />
-</p> -->
+En la parte superior vas a encontrar toda la información clave de la reserva:  
+**Número de File**, **Estado**, **Cliente**, **Vendedor cliente**, **Titular**, **Pasajeros**, **Moneda**, **Código externo**, **Vencimiento de seña**, y un link **“Mostrar más”** con datos ampliados.
+<!-- 
+![Encabezado del File](/img/reservas-online/mis-reservas/file-detalle.png) -->
 
 ---
 
@@ -53,9 +51,7 @@ El File incluye dos solapas principales:
 - Reenviar documentación.  
 - Editar asignaciones desde la sección **Pasajeros**.
 
-<!-- <p align="center">
-  <img src="/img/reservas-online/mis-reservas/itinerario.png" alt="Itinerario de servicios" />
-</p> -->
+<!-- ![Itinerario de servicios](/img/reservas-online/mis-reservas/itinerario.png) -->
 
 ---
 
@@ -85,9 +81,7 @@ Dentro de las solapas **Costos / Ventas / Impositivo**, vas a poder revisar:
 **Ajustes:**  
 En el panel **Totales (USD)** podés aplicar un **Ajuste o Renta** y confirmar los cambios.
 
-<!-- <p align="center">
-  <img src="/img/reservas-online/mis-reservas/impositivo.png" alt="Panel Impositivo" />
-</p> -->
+<!-- ![Panel Impositivo](/img/reservas-online/mis-reservas/impositivo.png) -->
 
 ---
 
@@ -99,9 +93,7 @@ Desde este apartado podés:
 - **Guardar y descargar** el archivo (PDF o itinerario).  
 - **Enviar notificaciones** por correo, si está habilitado.
 
-<!-- <p align="center">
-  <img src="/img/reservas-online/mis-reservas/guardar-descargar.png" alt="Guardar y descargar" />
-</p> -->
+<!-- ![Guardar y descargar](/img/reservas-online/mis-reservas/guardar-descargar.png) -->
 
 ---
 
@@ -116,9 +108,7 @@ En el panel **Acciones**, seleccioná lo que necesites:
 - Confirmación de solicitud o cancelación.  
 - Avisos por datos impositivos incompletos.
 
-<!-- <p align="center">
-  <img src="/img/reservas-online/mis-reservas/solicitar-factura.png" alt="Solicitar factura" />
-</p> -->
+<!-- ![Solicitar factura](/img/reservas-online/mis-reservas/solicitar-factura.png) -->
 
 ---
 
@@ -141,7 +131,7 @@ Desde el File también podés:
 
 ## 🤝 Handoff a Operaciones {#handoff}
 
-Una vez marcado **✅ Listo para operar**, el expediente queda disponible para el equipo de **Operaciones**, que se encarga del seguimiento, documentación final y operativos.  
+Una vez marcado **✅ Listo para operar**, la reserva queda disponible para el equipo de **Operaciones**, que se encarga del seguimiento, documentación final y operativos.  
 
 > Ver más en [**Operaciones – Introducción**](../../operaciones/intro.md)  
 > y [**Gestionar reservas**](../../operaciones/gestionar-reservas.md)
