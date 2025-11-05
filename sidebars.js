@@ -21,6 +21,21 @@ const sidebars = {
           id: "comercial/comercial-intro",
           label: "¿Qué puedo hacer como Comercial?",
         },
+        {
+          type: "doc",
+          id: "comercial/ingreso-modulo",
+          label: "¿Cómo ingreso al módulo Comercial?",
+        },
+        {
+          type: "doc",
+          id: "comercial/gestion-clientes",
+          label: "¿Cómo creo o gestiono un cliente?",
+        },
+        {
+          type: "doc",
+          id: "comercial/asociar-tarifario",
+          label: "¿Cómo asocio un tarifario a un cliente?",
+        },
       ],
     },
 
@@ -372,31 +387,43 @@ const sidebars = {
       collapsed: true,
       items: [
         {
-  type: "category",
-  label: "General",
-  collapsible: true,
-  collapsed: true,
-  items: [
-    "reservas-online/general/ingreso-modulo",
-    "reservas-online/general/seleccionar-cliente",
-    "reservas-online/general/seleccionar-solapa",
-    "reservas-online/general/nominacion",
-    "reservas-online/general/file",
-    "reservas-online/general/menu-usuario",
-    {
-      type: "category",
-      label: "Páginas internas (oculto)",
-      className: "sidebar-hidden",
-      collapsible: true,
-      collapsed: true,
-      items: [
-        { type: "doc", id: "reservas-online/general/filtros-y-resultados", className: "sidebar-hidden" },
-        { type: "doc", id: "reservas-online/general/ver-tarifas-y-detalle", className: "sidebar-hidden" },
-        { type: "doc", id: "reservas-online/general/carrito-y-servicios", className: "sidebar-hidden" },
-      ],
-    },
-  ],
-},
+          type: "category",
+          label: "General",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            "reservas-online/general/ingreso-modulo",
+            "reservas-online/general/seleccionar-cliente",
+            "reservas-online/general/seleccionar-solapa",
+            "reservas-online/general/nominacion",
+            "reservas-online/general/file",
+            "reservas-online/general/menu-usuario",
+            {
+              type: "category",
+              label: "Páginas internas (oculto)",
+              className: "sidebar-hidden",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  id: "reservas-online/general/filtros-y-resultados",
+                  className: "sidebar-hidden",
+                },
+                {
+                  type: "doc",
+                  id: "reservas-online/general/ver-tarifas-y-detalle",
+                  className: "sidebar-hidden",
+                },
+                {
+                  type: "doc",
+                  id: "reservas-online/general/carrito-y-servicios",
+                  className: "sidebar-hidden",
+                },
+              ],
+            },
+          ],
+        },
 
         {
           type: "category",
@@ -486,210 +513,209 @@ const sidebars = {
     // Administración
     // =========================
     {
-  type: "category",
-  label: "Administración",
-  collapsible: true,
-  collapsed: true,
-  items: [
-    // ========================
-    // Submódulos anidados
-    // ========================
-
-    {
       type: "category",
-      label: "Tesorería",
+      label: "Administración",
       collapsible: true,
       collapsed: true,
       items: [
+        // ========================
+        // Submódulos anidados
+        // ========================
+
         {
           type: "category",
-          label: "Caja",
+          label: "Tesorería",
+          collapsible: true,
+          collapsed: true,
           items: [
-            "administracion/tesoreria/caja/arqueo",
-            "administracion/tesoreria/caja/movimiento-de-fondo",
-            "administracion/tesoreria/caja/orden-de-pago",
-            "administracion/tesoreria/caja/orden-de-servicio",
-          ],
-        },
-        {
-          type: "category",
-          label: "Cobranzas",
-          items: [
-            "administracion/tesoreria/cobranzas/cobranza",
-            "administracion/tesoreria/cobranzas/listado-recibos",
-            "administracion/tesoreria/cobranzas/reporte-anticipos",
-            "administracion/tesoreria/cobranzas/venta-por-cliente",
-          ],
-        },
-        {
-          type: "category",
-          label: "Configuración",
-          items: [
-            "administracion/tesoreria/configuracion/conceptos-a-afacturar",
-            "administracion/tesoreria/configuracion/medios-pado-cobro",
             {
               type: "category",
-              label: "Formas de pago",
+              label: "Caja",
               items: [
-                "administracion/tesoreria/configuracion/formas de pago/cajas",
-                "administracion/tesoreria/configuracion/formas de pago/chequeras",
-                "administracion/tesoreria/configuracion/formas de pago/cuentas-bancarias",
-                "administracion/tesoreria/configuracion/formas de pago/gastos-y-diferencias",
-                "administracion/tesoreria/configuracion/formas de pago/retenciones",
-                "administracion/tesoreria/configuracion/formas de pago/tarjetas",
-                "administracion/tesoreria/configuracion/formas de pago/valores-a-depositar",
+                "administracion/tesoreria/caja/arqueo",
+                "administracion/tesoreria/caja/movimiento-de-fondo",
+                "administracion/tesoreria/caja/orden-de-pago",
+                "administracion/tesoreria/caja/orden-de-servicio",
+              ],
+            },
+            {
+              type: "category",
+              label: "Cobranzas",
+              items: [
+                "administracion/tesoreria/cobranzas/cobranza",
+                "administracion/tesoreria/cobranzas/listado-recibos",
+                "administracion/tesoreria/cobranzas/reporte-anticipos",
+                "administracion/tesoreria/cobranzas/venta-por-cliente",
+              ],
+            },
+            {
+              type: "category",
+              label: "Configuración",
+              items: [
+                "administracion/tesoreria/configuracion/conceptos-a-afacturar",
+                "administracion/tesoreria/configuracion/medios-pado-cobro",
+                {
+                  type: "category",
+                  label: "Formas de pago",
+                  items: [
+                    "administracion/tesoreria/configuracion/formas de pago/cajas",
+                    "administracion/tesoreria/configuracion/formas de pago/chequeras",
+                    "administracion/tesoreria/configuracion/formas de pago/cuentas-bancarias",
+                    "administracion/tesoreria/configuracion/formas de pago/gastos-y-diferencias",
+                    "administracion/tesoreria/configuracion/formas de pago/retenciones",
+                    "administracion/tesoreria/configuracion/formas de pago/tarjetas",
+                    "administracion/tesoreria/configuracion/formas de pago/valores-a-depositar",
+                  ],
+                },
               ],
             },
           ],
         },
-      ],
-    },
 
-    {
-      type: "category",
-      label: "Contabilidad",
-      collapsible: true,
-      collapsed: true,
-      items: [
-        "administracion/contabilidad/centro-de-costo",
-        "administracion/contabilidad/cierre",
-        "administracion/contabilidad/generar-asiento-contable",
-        "administracion/contabilidad/plan-de-cuentas",
-        "administracion/contabilidad/proyectos",
-        "administracion/contabilidad/sicore",
         {
           type: "category",
-          label: "Reportes contables",
+          label: "Contabilidad",
+          collapsible: true,
+          collapsed: true,
           items: [
-            "administracion/contabilidad/reportes-contables/balance",
-            "administracion/contabilidad/reportes-contables/consolidado",
-            "administracion/contabilidad/reportes-contables/diferencia-de-cambio-facturacion",
-            "administracion/contabilidad/reportes-contables/diferencia-de-cambios",
-            "administracion/contabilidad/reportes-contables/libro-diario",
-            "administracion/contabilidad/reportes-contables/libro-iva-ventas",
-            "administracion/contabilidad/reportes-contables/libro-mayor",
-            "administracion/contabilidad/reportes-contables/precepciones",
-            "administracion/contabilidad/reportes-contables/provision-de-costo",
-            "administracion/contabilidad/reportes-contables/renta-mensual",
-            "administracion/contabilidad/reportes-contables/reporte-analitico-cobranzas",
+            "administracion/contabilidad/centro-de-costo",
+            "administracion/contabilidad/cierre",
+            "administracion/contabilidad/generar-asiento-contable",
+            "administracion/contabilidad/plan-de-cuentas",
+            "administracion/contabilidad/proyectos",
+            "administracion/contabilidad/sicore",
+            {
+              type: "category",
+              label: "Reportes contables",
+              items: [
+                "administracion/contabilidad/reportes-contables/balance",
+                "administracion/contabilidad/reportes-contables/consolidado",
+                "administracion/contabilidad/reportes-contables/diferencia-de-cambio-facturacion",
+                "administracion/contabilidad/reportes-contables/diferencia-de-cambios",
+                "administracion/contabilidad/reportes-contables/libro-diario",
+                "administracion/contabilidad/reportes-contables/libro-iva-ventas",
+                "administracion/contabilidad/reportes-contables/libro-mayor",
+                "administracion/contabilidad/reportes-contables/precepciones",
+                "administracion/contabilidad/reportes-contables/provision-de-costo",
+                "administracion/contabilidad/reportes-contables/renta-mensual",
+                "administracion/contabilidad/reportes-contables/reporte-analitico-cobranzas",
+              ],
+            },
           ],
         },
-      ],
-    },
 
-    {
-      type: "category",
-      label: "Cuentas a pagar",
-      items: [
-        "administracion/cuentas-a-pagar/datos-bancarios-proveedores",
-        "administracion/cuentas-a-pagar/ordenes-de-servicio",
-        "administracion/cuentas-a-pagar/pagos-a-procesar",
         {
           type: "category",
-          label: "Carga factura terceros",
+          label: "Cuentas a pagar",
           items: [
-            "administracion/cuentas-a-pagar/carga-factura-terceros/asociados-a-reservas",
-            "administracion/cuentas-a-pagar/carga-factura-terceros/factura-gastos",
-            "administracion/cuentas-a-pagar/carga-factura-terceros/iva-compras",
+            "administracion/cuentas-a-pagar/datos-bancarios-proveedores",
+            "administracion/cuentas-a-pagar/ordenes-de-servicio",
+            "administracion/cuentas-a-pagar/pagos-a-procesar",
+            {
+              type: "category",
+              label: "Carga factura terceros",
+              items: [
+                "administracion/cuentas-a-pagar/carga-factura-terceros/asociados-a-reservas",
+                "administracion/cuentas-a-pagar/carga-factura-terceros/factura-gastos",
+                "administracion/cuentas-a-pagar/carga-factura-terceros/iva-compras",
+              ],
+            },
           ],
         },
-      ],
-    },
 
-    {
-      type: "category",
-      label: "Configuración general",
-      items: [
-        "administracion/configuracion-general/comisiones-tolerancia",
-        "administracion/configuracion-general/param-apartado-impositivo",
-        "administracion/configuracion-general/param-asientos-contables",
-        "administracion/configuracion-general/param-bsp",
-        "administracion/configuracion-general/param-iva",
-        "administracion/configuracion-general/param-otros-impuestos",
-        "administracion/configuracion-general/politica-cobranza",
-      ],
-    },
-
-    {
-      type: "category",
-      label: "Facturación",
-      items: [
-        "administracion/facturacion/consulta-comprobantes-emitidos",
-        "administracion/facturacion/listado-facturacion",
-        "administracion/facturacion/nota-credito-manual",
-        "administracion/facturacion/solicitud-factura",
-      ],
-    },
-
-    {
-      type: "category",
-      label: "Reportes",
-      items: [
-        "administracion/reportes/aging-clientes",
-        "administracion/reportes/aging-proveedores",
-        "administracion/reportes/bitacora-files",
-      ],
-    },
-
-    {
-      type: "category",
-      label: "RRHH",
-      items: [
-        "administracion/rrhh/asignacion-esquema-comisiones",
-        "administracion/rrhh/comisiones",
-        "administracion/rrhh/esquema-comisiones",
-        "administracion/rrhh/listado-liquidaciones",
-        "administracion/rrhh/reporte-comisiones-liquidadas",
-      ],
-    },
-
-    {
-      type: "category",
-      label: "Requerimiento de pago",
-      items: [
-        "administracion/requerimiento-de-pago/listado",
         {
           type: "category",
-          label: "Reportes RP",
+          label: "Configuración general",
           items: [
-            "administracion/requerimiento-de-pago/reportes-rp/seguimiento-anticipos",
+            "administracion/configuracion-general/comisiones-tolerancia",
+            "administracion/configuracion-general/param-apartado-impositivo",
+            "administracion/configuracion-general/param-asientos-contables",
+            "administracion/configuracion-general/param-bsp",
+            "administracion/configuracion-general/param-iva",
+            "administracion/configuracion-general/param-otros-impuestos",
+            "administracion/configuracion-general/politica-cobranza",
           ],
         },
+
+        {
+          type: "category",
+          label: "Facturación",
+          items: [
+            "administracion/facturacion/consulta-comprobantes-emitidos",
+            "administracion/facturacion/listado-facturacion",
+            "administracion/facturacion/nota-credito-manual",
+            "administracion/facturacion/solicitud-factura",
+          ],
+        },
+
+        {
+          type: "category",
+          label: "Reportes",
+          items: [
+            "administracion/reportes/aging-clientes",
+            "administracion/reportes/aging-proveedores",
+            "administracion/reportes/bitacora-files",
+          ],
+        },
+
+        {
+          type: "category",
+          label: "RRHH",
+          items: [
+            "administracion/rrhh/asignacion-esquema-comisiones",
+            "administracion/rrhh/comisiones",
+            "administracion/rrhh/esquema-comisiones",
+            "administracion/rrhh/listado-liquidaciones",
+            "administracion/rrhh/reporte-comisiones-liquidadas",
+          ],
+        },
+
+        {
+          type: "category",
+          label: "Requerimiento de pago",
+          items: [
+            "administracion/requerimiento-de-pago/listado",
+            {
+              type: "category",
+              label: "Reportes RP",
+              items: [
+                "administracion/requerimiento-de-pago/reportes-rp/seguimiento-anticipos",
+              ],
+            },
+          ],
+        },
+
+        {
+          type: "category",
+          label: "BSP",
+          items: [
+            "administracion/bsp/conciliacion",
+            "administracion/bsp/reclamos",
+            "administracion/bsp/resporte-ajustes",
+          ],
+        },
+
+        // ========================
+        // Archivos raíz (ordenados al final)
+        // ========================
+
+        "administracion/medios-formas-pago",
+        "administracion/reporte-tesoreria",
+        "administracion/cobranzas",
+        "administracion/movimiento-de-fondos",
+        "administracion/cuentas-a-pagar",
+        "administracion/carga-facturas-terceros",
+        "administracion/reservas-admin",
+        "administracion/contabilidad",
+        "administracion/facturacion",
+        "administracion/requerimiento-de-pago",
+        "administracion/reportes",
+        "administracion/rrhh",
+        "administracion/configuracion-general",
+        "administracion/tesoreria",
+        "administracion/bsp",
       ],
     },
-
-    {
-      type: "category",
-      label: "BSP",
-      items: [
-        "administracion/bsp/conciliacion",
-        "administracion/bsp/reclamos",
-        "administracion/bsp/resporte-ajustes",
-      ],
-    },
-
-    // ========================
-    // Archivos raíz (ordenados al final)
-    // ========================
-
-    "administracion/medios-formas-pago",
-    "administracion/reporte-tesoreria",
-    "administracion/cobranzas",
-    "administracion/movimiento-de-fondos",
-    "administracion/cuentas-a-pagar",
-    "administracion/carga-facturas-terceros",
-    "administracion/reservas-admin",
-    "administracion/contabilidad",
-    "administracion/facturacion",
-    "administracion/requerimiento-de-pago",
-    "administracion/reportes",
-    "administracion/rrhh",
-    "administracion/configuracion-general",
-    "administracion/tesoreria",
-    "administracion/bsp",
-  ],
-}
-
   ],
 };
 
