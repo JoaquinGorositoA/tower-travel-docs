@@ -548,7 +548,7 @@ const sidebars = {
               label: "Configuración",
               items: [
                 "administracion/tesoreria/configuracion/conceptos-a-afacturar",
-                "administracion/tesoreria/configuracion/medios-pado-cobro",
+                "administracion/tesoreria/configuracion/medios-pago-cobro",
                 {
                   type: "category",
                   label: "Formas de pago",
