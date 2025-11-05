@@ -18,11 +18,6 @@ const sidebars = {
       items: [
         {
           type: "doc",
-          id: "comercial/comercial-intro",
-          label: "¿Qué puedo hacer como Comercial?",
-        },
-        {
-          type: "doc",
           id: "comercial/ingreso-modulo",
           label: "¿Cómo ingreso al módulo Comercial?",
         },
