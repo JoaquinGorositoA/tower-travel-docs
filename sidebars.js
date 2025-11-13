@@ -653,17 +653,17 @@ const sidebars = {
           ],
         },
 
-        {
-          type: "category",
-          label: "RRHH",
-          items: [
-            "administracion/rrhh/asignacion-esquema-comisiones",
-            "administracion/rrhh/comisiones",
-            "administracion/rrhh/esquema-comisiones",
-            "administracion/rrhh/listado-liquidaciones",
-            "administracion/rrhh/reporte-comisiones-liquidadas",
-          ],
-        },
+        // {
+        //   type: "category",
+        //   label: "RRHH",
+        //   items: [
+        //     "administracion/rrhh/asignacion-esquema-comisiones",
+        //     "administracion/rrhh/comisiones",
+        //     "administracion/rrhh/esquema-comisiones",
+        //     "administracion/rrhh/listado-liquidaciones",
+        //     "administracion/rrhh/reporte-comisiones-liquidadas",
+        //   ],
+        // },
 
         {
           type: "category",
